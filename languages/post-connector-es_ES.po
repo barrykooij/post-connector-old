@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SubPosts 1.0.0\n"
+"POT-Creation-Date: 2013-11-07 23:13+0100\n"
+"PO-Revision-Date: 2013-12-02 09:46+0100\n"
+"Last-Translator: Rocío Valdivia <rocio@mecus.es>\n"
+"Language-Team: \n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../assets/js/tinymce/editor_plugin_lang.php:5
+msgid "Sub Posts"
+msgstr "Sub Posts"
+
+#: ../assets/js/tinymce/editor_plugin_lang.php:6
+msgid "Show Childs"
+msgstr "Mostrar Hijos"
+
+#: ../classes/control/AdminMenu.php:34 ../classes/control/AdminMenu.php:212
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: ../classes/control/AdminMenu.php:35
+#: ../classes/control/Filters/PluginLinks.php:11
+msgid "License"
+msgstr "Licencia"
+
+#: ../classes/control/AdminMenu.php:79
+msgid "Meta information"
+msgstr "Meta información"
+
+#: ../classes/control/AdminMenu.php:80
+msgid "Version"
+msgstr "Versión"
+
+#: ../classes/control/AdminMenu.php:95
+msgid "Active post type links"
+msgstr "Vinculación entre tipos de posts activos"
+
+#: ../classes/control/AdminMenu.php:101
+msgid "These are your active post type links."
+msgstr "Estas son tus vinculaciones entre los tipos de posts activos."
+
+#: ../classes/control/AdminMenu.php:111 ../classes/control/AdminMenu.php:156
+msgid "Create new post type link"
+msgstr "Crear una nueva vinculación entre dos tipos de posts"
+
+#: ../classes/control/AdminMenu.php:139
+msgid "Posts"
+msgstr "Posts"
+
+#: ../classes/control/AdminMenu.php:140
+msgid "Pages"
+msgstr "Páginas"
+
+#: ../classes/control/AdminMenu.php:154
+msgid "Edit post type link"
+msgstr "Editar vínculo entre tipos de posts"
+
+#: ../classes/control/AdminMenu.php:172 ../classes/control/AdminMenu.php:173
+#: ../classes/view/ManageLinks_ListTable.php:22
+msgid "Slug"
+msgstr "Slug"
+
+#: ../classes/control/AdminMenu.php:176 ../classes/control/AdminMenu.php:177
+#: ../classes/control/Widgets/ShowChilds.php:74
+#: ../classes/view/CreateLink_ListTable.php:29
+#: ../classes/view/ManageLinks_ListTable.php:21
+msgid "Title"
+msgstr "Título"
+
+#: ../classes/control/AdminMenu.php:180
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:46
+#: ../classes/control/Widgets/ShowChilds.php:100
+msgid "Parent"
+msgstr "Padre"
+
+#: ../classes/control/AdminMenu.php:182 ../classes/control/AdminMenu.php:194
+msgid "Select a post type"
+msgstr "Elige un tipo de post"
+
+#: ../classes/control/AdminMenu.php:192
+msgid "Child"
+msgstr "Hijo"
+
+#: ../classes/control/AdminMenu.php:205
+msgid "Sortable"
+msgstr "Ordenable"
+
+#: ../classes/control/AdminMenu.php:207 ../classes/control/AdminMenu.php:214
+#: ../classes/control/AdminMenu.php:221
+msgid "Yes"
+msgstr "Sí"
+
+#: ../classes/control/AdminMenu.php:208 ../classes/control/AdminMenu.php:215
+#: ../classes/control/AdminMenu.php:222
+msgid "No"
+msgstr "No"
+
+#: ../classes/control/AdminMenu.php:219
+msgid "Add Existing"
+msgstr "Añadir existente"
+
+#: ../classes/control/AdminMenu.php:226 ../classes/control/AdminMenu.php:280
+msgid "Save"
+msgstr "Guardar"
+
+#: ../classes/control/AdminMenu.php:242
+msgid "License settings"
+msgstr "Ajustes de licencia"
+
+#: ../classes/control/AdminMenu.php:252
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: ../classes/control/AdminMenu.php:256
+msgid "Enter your license key"
+msgstr "Introduzca su clave de licencia"
+
+#: ../classes/control/AdminMenu.php:265
+msgid "License Status"
+msgstr "Estado de la licencia"
+
+#: ../classes/control/AdminMenu.php:269
+msgid "ACTIVE"
+msgstr "ACTIVO"
+
+#: ../classes/control/AdminMenu.php:270
+msgid "Deactivate License"
+msgstr "Desactivar licencia"
+
+#: ../classes/control/AdminMenu.php:272
+msgid "INACTIVE"
+msgstr "INACTIVO"
+
+#: ../classes/control/AdminMenu.php:273
+msgid "Activate License"
+msgstr "Activar licencia"
+
+#: ../classes/control/PostLinkManager.php:152
+#, php-format
+msgid "Slug '%s' does not exists"
+msgstr "No existe el enlace '%s'"
+
+#: ../classes/control/Filters/PluginLinks.php:12
+msgid "Manage"
+msgstr "Gestionar"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:17
+msgid "Insert Sub Posts GetChilds Shortcode"
+msgstr "Inserta el Shortcode de obtención de hijos de Sub Posts"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:18
+msgid "Use the form below to generate a GetChilds shortcode."
+msgstr ""
+"Usa el formulario inferior para generar un Shortcode de obtención de hijos."
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:30
+#: ../classes/control/Widgets/ShowChilds.php:79
+msgid "Post Link"
+msgstr "Vínculo del post"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:36
+#: ../classes/control/Widgets/ShowChilds.php:85
+msgid "Select Post Link"
+msgstr "Elige un post para vincular"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:53
+#: ../classes/control/Widgets/ShowChilds.php:127
+msgid "Make childs clickable"
+msgstr "Hacer hijos clickeables"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:61
+#: ../classes/control/Widgets/ShowChilds.php:135
+msgid "Display excerpt"
+msgstr "Mostrar extracto"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:75
+msgid "Insert Shortcode"
+msgstr "Inserta Shortcode"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:76
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../classes/control/Hooks/LinkPostScreen.php:27
+#: ../classes/control/Hooks/LinkPostScreen.php:34
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:31
+msgid "You're not allowed to do this."
+msgstr "No tienes permisos para hacer esto."
+
+#: ../classes/control/Hooks/LinkPostScreen.php:161
+msgid "Cancel linking"
+msgstr "Cancelar enlace"
+
+#: ../classes/control/Hooks/LinkPostScreen.php:169
+msgid "Search"
+msgstr "Buscar"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:79
+#, php-format
+msgid "Add new %s"
+msgstr "Añadir nuevo %s"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:88
+#, php-format
+msgid "Add existing %s"
+msgstr "Añadir %s existente"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:114
+msgid "Edit this item"
+msgstr "Editar este elemento"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:115
+#: ../classes/view/ManageLinks_ListTable.php:94
+msgid "Edit"
+msgstr "Editar"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:117
+msgid "Delete this item"
+msgstr "Eliminar este elemento"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:118
+#: ../classes/view/ManageLinks_ListTable.php:99
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:131
+#, php-format
+msgid "No %s found."
+msgstr "Todavía no hay ningún %s vinculado."
+
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:57
+msgid "Sub Posts Meta"
+msgstr "Meta Sub Posts"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:101
+msgid "This MetaBox is required by Sub Posts."
+msgstr "Este MetaBox es necesario para Sub Posts."
+
+#: ../classes/control/Widgets/ShowChilds.php:19
+msgid "Sub Posts - Show Childs"
+msgstr "Sub Posts - Mostrar Hijos"
+
+#: ../classes/control/Widgets/ShowChilds.php:20
+msgid "Display linked childs by a parent or current post"
+msgstr "Mostrar los hijos vinculados por un padre o un post actual"
+
+#: ../classes/control/Widgets/ShowChilds.php:112
+#: ../classes/model/JavaScriptStrings.php:13
+msgid "Current queried object"
+msgstr "Objeto consultado actual"
+
+#: ../classes/model/JavaScriptStrings.php:11
+msgid "Are you sure you want to delete this post?"
+msgstr "¿Estás seguro de que quieres eliminar este post?"
+
+#: ../classes/model/JavaScriptStrings.php:12
+msgid "Are you sure you want to delete this link?"
+msgstr "¿Estás seguro de que quieres eliminar este vínculo?"
+
+#: ../classes/view/CreateLink_ListTable.php:98
+#: ../classes/view/CreateLink_ListTable.php:121
+msgid "Link"
+msgstr "Vincular"
+
+#: ../classes/view/ManageLinks_ListTable.php:23
+msgid "Parent post"
+msgstr "Post padre"
+
+#: ../classes/view/ManageLinks_ListTable.php:24
+msgid "Child post"
+msgstr "Post hijo"

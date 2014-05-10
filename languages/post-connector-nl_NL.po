@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SubPosts 1.0.0\n"
+"POT-Creation-Date: 2013-09-17 22:30+0100\n"
+"PO-Revision-Date: 2013-09-17 22:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../assets/js/tinymce/editor_plugin_lang.php:5
+msgid "Sub Posts"
+msgstr "Sub Posts"
+
+#: ../assets/js/tinymce/editor_plugin_lang.php:6
+msgid "Show Childs"
+msgstr "Bekijk Childs"
+
+#: ../classes/control/AdminMenu.php:34 ../classes/control/AdminMenu.php:212
+msgid "Add New"
+msgstr "Voeg nieuwe toe"
+
+#: ../classes/control/AdminMenu.php:35
+#: ../classes/control/Filters/PluginLinks.php:11
+msgid "License"
+msgstr "Licentie"
+
+#: ../classes/control/AdminMenu.php:79
+msgid "Meta information"
+msgstr "Meta informatie"
+
+#: ../classes/control/AdminMenu.php:80
+msgid "Version"
+msgstr "Versie"
+
+#: ../classes/control/AdminMenu.php:95
+msgid "Active post type links"
+msgstr "Actieve post type links"
+
+#: ../classes/control/AdminMenu.php:101
+msgid "These are your active post type links."
+msgstr "Dit zijn jouw actieve post type links."
+
+#: ../classes/control/AdminMenu.php:111 ../classes/control/AdminMenu.php:156
+msgid "Create new post type link"
+msgstr "Maak een nieuwe post type link"
+
+#: ../classes/control/AdminMenu.php:139
+msgid "Posts"
+msgstr "Berichten"
+
+#: ../classes/control/AdminMenu.php:140
+msgid "Pages"
+msgstr "Pagina's"
+
+#: ../classes/control/AdminMenu.php:154
+msgid "Edit post type link"
+msgstr "Bewerk post type link"
+
+#: ../classes/control/AdminMenu.php:172 ../classes/control/AdminMenu.php:173
+#: ../classes/view/ManageLinks_ListTable.php:22
+msgid "Slug"
+msgstr "Slug"
+
+#: ../classes/control/AdminMenu.php:176 ../classes/control/AdminMenu.php:177
+#: ../classes/control/Widgets/ShowChilds.php:74
+#: ../classes/view/CreateLink_ListTable.php:29
+#: ../classes/view/ManageLinks_ListTable.php:21
+msgid "Title"
+msgstr "Titel"
+
+#: ../classes/control/AdminMenu.php:180
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:46
+#: ../classes/control/Widgets/ShowChilds.php:100
+msgid "Parent"
+msgstr "Hoofd"
+
+#: ../classes/control/AdminMenu.php:182 ../classes/control/AdminMenu.php:194
+msgid "Select a post type"
+msgstr "Kies een post type"
+
+#: ../classes/control/AdminMenu.php:192
+msgid "Child"
+msgstr "Child"
+
+#: ../classes/control/AdminMenu.php:205
+msgid "Sortable"
+msgstr "Sorteerbaar"
+
+#: ../classes/control/AdminMenu.php:207 ../classes/control/AdminMenu.php:214
+#: ../classes/control/AdminMenu.php:221
+msgid "Yes"
+msgstr "Ja"
+
+#: ../classes/control/AdminMenu.php:208 ../classes/control/AdminMenu.php:215
+#: ../classes/control/AdminMenu.php:222
+msgid "No"
+msgstr "Nee"
+
+#: ../classes/control/AdminMenu.php:219
+msgid "Add Existing"
+msgstr "Voeg bestaande toe"
+
+#: ../classes/control/AdminMenu.php:226 ../classes/control/AdminMenu.php:280
+msgid "Save"
+msgstr "Opslaan"
+
+#: ../classes/control/AdminMenu.php:242
+msgid "License settings"
+msgstr "Licentie instellingen"
+
+#: ../classes/control/AdminMenu.php:252
+msgid "License Key"
+msgstr "Licentie sleutel"
+
+#: ../classes/control/AdminMenu.php:256
+msgid "Enter your license key"
+msgstr "Voer uw licentie sleutel in"
+
+#: ../classes/control/AdminMenu.php:265
+msgid "License Status"
+msgstr "Licentie status"
+
+#: ../classes/control/AdminMenu.php:269
+msgid "ACTIVE"
+msgstr "ACTIEF"
+
+#: ../classes/control/AdminMenu.php:270
+msgid "Deactivate License"
+msgstr "Deactiveer licentie"
+
+#: ../classes/control/AdminMenu.php:272
+msgid "INACTIVE"
+msgstr "INACTIEF"
+
+#: ../classes/control/AdminMenu.php:273
+msgid "Activate License"
+msgstr "Activeer licentie"
+
+#: ../classes/control/PostLinkManager.php:152
+#, php-format
+msgid "Slug '%s' does not exists"
+msgstr "Slug '%s' bestaat niet"
+
+#: ../classes/control/Filters/PluginLinks.php:12
+msgid "Manage"
+msgstr "Beheren"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:17
+msgid "Insert Sub Posts GetChilds Shortcode"
+msgstr "Voeg Sub Posts GetChilds Shortcode in"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:18
+msgid "Use the form below to generate a GetChilds shortcode."
+msgstr ""
+"Gebruik het formulier hieronder om een GetChilds shortcode te genereren."
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:30
+#: ../classes/control/Widgets/ShowChilds.php:79
+msgid "Post Link"
+msgstr "Post Link"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:36
+#: ../classes/control/Widgets/ShowChilds.php:85
+msgid "Select Post Link"
+msgstr "Selecteer Post Link"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:53
+#: ../classes/control/Widgets/ShowChilds.php:127
+msgid "Make childs clickable"
+msgstr "Maak childs klikbaar"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:61
+#: ../classes/control/Widgets/ShowChilds.php:135
+msgid "Display excerpt"
+msgstr "Toon samenvatting"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:75
+msgid "Insert Shortcode"
+msgstr "Voeg shortcode in"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:76
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../classes/control/Hooks/LinkPostScreen.php:27
+#: ../classes/control/Hooks/LinkPostScreen.php:34
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:31
+msgid "You're not allowed to do this."
+msgstr "Het is niet toegestaan ​​om dit te doen."
+
+#: ../classes/control/Hooks/LinkPostScreen.php:161
+msgid "Cancel linking"
+msgstr "Annuleer linken"
+
+#: ../classes/control/Hooks/LinkPostScreen.php:169
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:79
+#, php-format
+msgid "Add new %s"
+msgstr "Voeg nieuwe %s toe"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:88
+#, php-format
+msgid "Add existing %s"
+msgstr "Voeg bestaande %s toe"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:114
+msgid "Edit this item"
+msgstr "Bewerk dit item"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:115
+#: ../classes/view/ManageLinks_ListTable.php:94
+msgid "Edit"
+msgstr "Bewerk"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:117
+msgid "Delete this item"
+msgstr "Verwijder dit item"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:118
+#: ../classes/view/ManageLinks_ListTable.php:99
+msgid "Delete"
+msgstr "Verwijder"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:131
+#, php-format
+msgid "No %s found."
+msgstr "Geen %s gevonden."
+
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:57
+msgid "Sub Posts Meta"
+msgstr "Sub Posts Meta"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:101
+msgid "This MetaBox is required by Sub Posts."
+msgstr "Deze MetaBox is door Sub Posts vereist."
+
+#: ../classes/control/Widgets/ShowChilds.php:19
+msgid "Sub Posts - Show Childs"
+msgstr "Sub Posts - Toon Childs"
+
+#: ../classes/control/Widgets/ShowChilds.php:20
+msgid "Display linked childs by a parent or current post"
+msgstr "Toon gelinkte childs aan de hand van hoofd of huidige post"
+
+#: ../classes/control/Widgets/ShowChilds.php:112
+#: ../classes/model/JavaScriptStrings.php:13
+msgid "Current queried object"
+msgstr "Huidige object"
+
+#: ../classes/model/JavaScriptStrings.php:11
+msgid "Are you sure you want to delete this post?"
+msgstr "Weet je zeker dat je dit bericht wilt verwijderen?"
+
+#: ../classes/model/JavaScriptStrings.php:12
+msgid "Are you sure you want to delete this link?"
+msgstr "Weet je zeker dat je deze link wilt verwijderen?"
+
+#: ../classes/view/CreateLink_ListTable.php:98
+#: ../classes/view/CreateLink_ListTable.php:121
+msgid "Link"
+msgstr "Link"
+
+#: ../classes/view/ManageLinks_ListTable.php:23
+msgid "Parent post"
+msgstr "Hoofd item"
+
+#: ../classes/view/ManageLinks_ListTable.php:24
+msgid "Child post"
+msgstr "Child item"

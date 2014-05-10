@@ -1,0 +1,12 @@
+{
+    "name": "post-connector",
+    "description": "Development files for the Post Connector plugin",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-wp-i18n": "0.4.3"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}

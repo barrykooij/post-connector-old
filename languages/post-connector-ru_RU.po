@@ -1,0 +1,270 @@
+# Translation of Post Connector in Russian
+# This file is distributed under the same license as the Post Connector package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-04-16 11:12:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Post Connector\n"
+
+#: ../assets/js/tinymce/editor_plugin_lang.php:5
+msgid "Sub Posts"
+msgstr "Дочерние посты"
+
+#: ../assets/js/tinymce/editor_plugin_lang.php:6
+msgid "Show Childs"
+msgstr "Показать дочерние"
+
+#: ../classes/control/AdminMenu.php:34 ../classes/control/AdminMenu.php:212
+msgid "Add New"
+msgstr "Добавить новые"
+
+#: ../classes/control/AdminMenu.php:35
+#: ../classes/control/Filters/PluginLinks.php:11
+msgid "License"
+msgstr "Лицензия"
+
+#: ../classes/control/AdminMenu.php:79
+msgid "Meta information"
+msgstr "Мета-информация"
+
+#: ../classes/control/AdminMenu.php:80
+msgid "Version"
+msgstr "Версия"
+
+#: ../classes/control/AdminMenu.php:95
+msgid "Active post type links"
+msgstr "Активные ссылки на посты"
+
+#: ../classes/control/AdminMenu.php:101
+msgid "These are your active post type links."
+msgstr "Это ваши ссылки на активные посты"
+
+#: ../classes/control/AdminMenu.php:111 ../classes/control/AdminMenu.php:156
+msgid "Create new post type link"
+msgstr "Создать новую ссылку на пост"
+
+#: ../classes/control/AdminMenu.php:139
+msgid "Posts"
+msgstr "Посты"
+
+#: ../classes/control/AdminMenu.php:140
+msgid "Pages"
+msgstr "Страницы"
+
+#: ../classes/control/AdminMenu.php:154
+msgid "Edit post type link"
+msgstr "Изменить ссылку на пост"
+
+#: ../classes/control/AdminMenu.php:172 ../classes/control/AdminMenu.php:173
+#: ../classes/view/ManageLinks_ListTable.php:22
+msgid "Slug"
+msgstr "Ярлык"
+
+#: ../classes/control/AdminMenu.php:176 ../classes/control/AdminMenu.php:177
+#: ../classes/control/Widgets/ShowChilds.php:74
+#: ../classes/view/CreateLink_ListTable.php:29
+#: ../classes/view/ManageLinks_ListTable.php:21
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../classes/control/AdminMenu.php:180
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:46
+#: ../classes/control/Widgets/ShowChilds.php:100
+msgid "Parent"
+msgstr "Родитель"
+
+#: ../classes/control/AdminMenu.php:182 ../classes/control/AdminMenu.php:194
+msgid "Select a post type"
+msgstr "Выберите тип поста"
+
+#: ../classes/control/AdminMenu.php:192
+msgid "Child"
+msgstr "Дочерний"
+
+#: ../classes/control/AdminMenu.php:205
+msgid "Sortable"
+msgstr "Сортируемый"
+
+#: ../classes/control/AdminMenu.php:207 ../classes/control/AdminMenu.php:214
+#: ../classes/control/AdminMenu.php:221
+msgid "Yes"
+msgstr "Да"
+
+#: ../classes/control/AdminMenu.php:208 ../classes/control/AdminMenu.php:215
+#: ../classes/control/AdminMenu.php:222
+msgid "No"
+msgstr "Нет"
+
+#: ../classes/control/AdminMenu.php:219
+msgid "Add Existing"
+msgstr "Добавить существующий"
+
+#: ../classes/control/AdminMenu.php:226 ../classes/control/AdminMenu.php:280
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../classes/control/AdminMenu.php:242
+msgid "License settings"
+msgstr "Настройки лицензии"
+
+#: ../classes/control/AdminMenu.php:252
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: ../classes/control/AdminMenu.php:256
+msgid "Enter your license key"
+msgstr "Введите ваш лицензионный ключ"
+
+#: ../classes/control/AdminMenu.php:265
+msgid "License Status"
+msgstr "Статус лицензии"
+
+#: ../classes/control/AdminMenu.php:269
+msgid "ACTIVE"
+msgstr "АКТИВНО"
+
+#: ../classes/control/AdminMenu.php:270
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: ../classes/control/AdminMenu.php:272
+msgid "INACTIVE"
+msgstr "НЕАКТИВНО"
+
+#: ../classes/control/AdminMenu.php:273
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: ../classes/control/PostLinkManager.php:152
+msgid "Slug '%s' does not exists"
+msgstr "Ярлык '%s' не существует"
+
+#: ../classes/control/Filters/PluginLinks.php:12
+msgid "Manage"
+msgstr "Управление"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:17
+msgid "Insert Sub Posts GetChilds Shortcode"
+msgstr "Вставить короткий код GetChilds для дочерних постов"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:18
+msgid "Use the form below to generate a GetChilds shortcode."
+msgstr "Используйте форму ниже, чтобы получить короткий код для GetChilds."
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:30
+#: ../classes/control/Widgets/ShowChilds.php:79
+msgid "Post Link"
+msgstr "Ссылка на пост"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:36
+#: ../classes/control/Widgets/ShowChilds.php:85
+msgid "Select Post Link"
+msgstr "Выберите ссылку на пост"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:53
+#: ../classes/control/Widgets/ShowChilds.php:127
+msgid "Make childs clickable"
+msgstr "Сделать потомков кликабельными"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:61
+#: ../classes/control/Widgets/ShowChilds.php:135
+msgid "Display excerpt"
+msgstr "Отображать цитату"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:75
+msgid "Insert Shortcode"
+msgstr "Вставить короткий код"
+
+#: ../classes/control/Hooks/FooterTickboxShortcode.php:76
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../classes/control/Hooks/LinkPostScreen.php:27
+#: ../classes/control/Hooks/LinkPostScreen.php:34
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:31
+msgid "You're not allowed to do this."
+msgstr "У вас нет разрешений на это действие"
+
+#: ../classes/control/Hooks/LinkPostScreen.php:161
+msgid "Cancel linking"
+msgstr "Отменить связь"
+
+#: ../classes/control/Hooks/LinkPostScreen.php:169
+msgid "Search"
+msgstr "Поиск"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:79
+msgid "Add new %s"
+msgstr "Добавить новый %s"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:88
+msgid "Add existing %s"
+msgstr "Добавить существующий %s"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:114
+msgid "Edit this item"
+msgstr "Редактировать этот элемент"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:115
+#: ../classes/view/ManageLinks_ListTable.php:94
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:117
+msgid "Delete this item"
+msgstr "Удалить этот элемент"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:118
+#: ../classes/view/ManageLinks_ListTable.php:99
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:131
+msgid "No %s found."
+msgstr "%s не найдено."
+
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:57
+msgid "Sub Posts Meta"
+msgstr "Мете-информация о потомках"
+
+#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:101
+msgid "This MetaBox is required by Sub Posts."
+msgstr "Эта мета-информация требуется дочерними постами."
+
+#: ../classes/control/Widgets/ShowChilds.php:19
+msgid "Sub Posts - Show Childs"
+msgstr "Дочерний посты - отображать потомков"
+
+#: ../classes/control/Widgets/ShowChilds.php:20
+msgid "Display linked childs by a parent or current post"
+msgstr "Отображать потомков по родительскому или текущему посту"
+
+#: ../classes/control/Widgets/ShowChilds.php:112
+#: ../classes/model/JavaScriptStrings.php:13
+msgid "Current queried object"
+msgstr "Текущий запрашиваемый объект"
+
+#: ../classes/model/JavaScriptStrings.php:11
+msgid "Are you sure you want to delete this post?"
+msgstr "Вы уверены, что хотите удалить этот пост?"
+
+#: ../classes/model/JavaScriptStrings.php:12
+msgid "Are you sure you want to delete this link?"
+msgstr "Вы уверены, что хотите удалить эту ссылку?"
+
+#: ../classes/view/CreateLink_ListTable.php:98
+#: ../classes/view/CreateLink_ListTable.php:121
+msgid "Link"
+msgstr "Ссылка"
+
+#: ../classes/view/ManageLinks_ListTable.php:23
+msgid "Parent post"
+msgstr "Родительский пост"
+
+#: ../classes/view/ManageLinks_ListTable.php:24
+msgid "Child post"
+msgstr "Дочерний пост"
