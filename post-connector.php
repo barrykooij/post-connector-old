@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: Post Connector
-  Plugin URI: https://yoast.com/wordpress/plugins/post-connector/
+  Plugin URI: https://www.post-connector.com/
   Description: With Post Connector you can easily link posts to each other.
   Version: 1.0.0
   Author: Barry Kooij
