@@ -41,9 +41,19 @@ class Post_Connector extends Post_Connector_Core {
 		// Do the parent init
 		parent::init();
 
+		// did the user click on upgrade to pro link?
+		if( isset( $_GET['page'] ) && $_GET['page'] === 'post_connector_go_pro' && false === headers_sent() ) {
+			header("Location: https://www.post-connector.com/?utm_source=plugin&utm_medium=link&utm_campaign=menu-upgrade-link");
+			exit;
+		}
+
 		// Setup core only filters
 		$manager_filter = new SP_Manager_Filter( self::get_core_dir() . 'classes/co-filters/' );
 		$manager_filter->load_filters();
+
+		// Setup core only hooks
+		$manager_hooks = new SP_Manager_Hook( self::get_core_dir() . 'classes/co-hooks/' );
+		$manager_hooks->load_hooks();
 	}
 
 	/**
