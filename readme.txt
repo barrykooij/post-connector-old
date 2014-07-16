@@ -66,6 +66,15 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 
 == Screenshots ==
 
+1. The connection overview screen. Here you can manage your connections.
+2. The connection edit screen. Here you can edit a connection.
+3. The connection edit screen. Here you can edit a connection.
+4. Example output of linked posts.
+5. The linking posts screen. Here you can link posts to each other.
+6. The edit post screen. Post Connector adds a meta box so you can link posts to each other with just a few clicks.
+7. Post Connector comes with a shortcode generator so you can display linked posts anywhere you want.
+8. Post Connector comes with a widget so you can display linked posts in any sidebar you want.
+
 == Changelog ==
 
 = 1.0.0 - July 13, 2014 =
