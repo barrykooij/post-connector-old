@@ -1,10 +1,10 @@
 === Post Connector ===
 Contributors: barrykooij
 Donate link: https://www.post-connector.com/
-Tags: post connector, related, related posts, post connection, connection, connections,shortcode,widget
+Tags: post connector, related, related posts, post connection, connection, connections, shortcode, widget
 Requires at least: 3.6
 Tested up to: 3.9.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,9 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 8. Post Connector comes with a widget so you can display linked posts in any sidebar you want.
 
 == Changelog ==
+
+= 1.0.1 - July 21, 2014 =
+* Added the 'pc_connection_edit_form_display_linked_children' action.
 
 = 1.0.0 - July 13, 2014 =
 * Initial version
