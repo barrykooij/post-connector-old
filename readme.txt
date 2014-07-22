@@ -16,24 +16,24 @@ A WordPress plugin that allows you to easily create related posts that don't lag
 
 In WordPress, post types are often related, for instance, you might want to relate recipes to ingredients. But to do so, you’d normally have to use a custom taxonomy. With Post Connector, you can directly relate post types to post types, foregoing all the hassle of having to create loads of custom taxonomies and just allowing you to do what you really want to do.
 
-=No coding required=
+= No coding required =
 Creating links, linking posts and displaying posts in Post Connector can all be done without coding. Stuff you used to need a developer for can now “just” be done by clicking around in your WordPress backend.
 
 =Automatically displaying linked posts=
 Automatically displaying linked posts introduces a new way of displaying linked posts. Next to our widget and shortcode you can now display linked posts by let Post Connector append them to your posts. This new feature prevents the need of editing your theme files allowing you to easily switch themes in the future.
 
-=Unlimited links=
+= Unlimited links =
 Unlimited links, in all ways. You can create links in links as many times as you want, no limitations. Whether you want to relate one post to 10 others of a different post type or you want to relate a post to posts in several different post types: it’s all easily done.
 
-=Widget & Shortcode=
+= Widget & Shortcode =
 Post Connector includes a widget for displaying linked posts. Of course you can add the widget multiple times, displaying different links and/or different parents. Next to this you can set the widget’s title, choose whether you want the child posts to be clickable and if you would like to display the excerpt for each child.
 
 Post Connector also includes a shortcode  for displaying linked posts. This enable you to output specific linked posts anywhere you can type content (e.g. pages) by simply entering the shortcode. Heck, you don’t even to remember that the shortcode is. Just click the Post Connector icon in the editor, set a few settings and click “Insert Shortcode” and you’re done.
 
-=Multilingual=
+= Multilingual =
 Post Connector is available in English, Dutch, German and Spanish and soon many more languages. Post Connector will automatically select the correct language based on your WordPress installation language.
 
-=Network/Multisite compatible=
+= Network/Multisite compatible =
 Post Connector is WordPress Network / Multisite compatible. Each site will have its own version of Post Connector and thus have it own links.
 
 > **Premium features**
