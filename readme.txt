@@ -19,7 +19,7 @@ In WordPress, post types are often related, for instance, you might want to rela
 = No coding required =
 Creating links, linking posts and displaying posts in Post Connector can all be done without coding. Stuff you used to need a developer for can now “just” be done by clicking around in your WordPress backend.
 
-=Automatically displaying linked posts=
+= Automatically displaying linked posts =
 Automatically displaying linked posts introduces a new way of displaying linked posts. Next to our widget and shortcode you can now display linked posts by let Post Connector append them to your posts. This new feature prevents the need of editing your theme files allowing you to easily switch themes in the future.
 
 = Unlimited links =
