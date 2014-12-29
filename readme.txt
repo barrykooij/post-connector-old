@@ -16,6 +16,18 @@ A WordPress plugin that allows you to easily create related posts that don't lag
 
 In WordPress, post types are often related, for instance, you might want to relate recipes to ingredients. But to do so, you’d normally have to use a custom taxonomy. With Post Connector, you can directly relate post types to post types, foregoing all the hassle of having to create loads of custom taxonomies and just allowing you to do what you really want to do.
 
+> **Premium features**
+>
+> The Pro version of the plugin comes with the following features:
+>
+> - Related content suggestions
+> - Sortable post connections
+> - Backwards linking (parent to child AND child to parent)
+> - A developer friendly API
+> - Priority support
+>
+> [More information](https://www.post-connector.com/?utm_source=wp-plugin-repo&utm_medium=link&utm_campaign=after-features-link) | [Upgrade now >>](https://www.post-connector.com/go-pro/?utm_source=wp-plugin-repo&utm_medium=link&utm_campaign=after-features-link)
+
 = No coding required =
 Creating links, linking posts and displaying posts in Post Connector can all be done without coding. Stuff you used to need a developer for can now “just” be done by clicking around in your WordPress backend.
 
@@ -36,18 +48,6 @@ Post Connector is available in English, Dutch, German and Spanish and soon many 
 = Network/Multisite compatible =
 Post Connector is WordPress Network / Multisite compatible. Each site will have its own version of Post Connector and thus have it own links.
 
-> **Premium features**
->
-> The Pro version of the plugin comes with the following features:
->
-> - Related content suggestions
-> - Sortable post connections
-> - Backwards linking (parent to child AND child to parent)
-> - A developer friendly API
-> - Priority support
->
-> [More information](https://www.post-connector.com/?utm_source=wp-plugin-repo&utm_medium=link&utm_campaign=after-features-link) | [Upgrade now >>](https://www.post-connector.com/go-pro/?utm_source=wp-plugin-repo&utm_medium=link&utm_campaign=after-features-link)
-
 **More information**
 
 - Other [WordPress plugins](http://profiles.wordpress.org/barrykooij/) by [Barry Kooij](http://www.barrykooij.com/)
@@ -63,6 +63,8 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 1. Activate the plugin
 
 == Frequently Asked Questions ==
+
+
 
 == Screenshots ==
 
