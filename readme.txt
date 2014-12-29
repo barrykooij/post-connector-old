@@ -79,6 +79,7 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 
 = 1.0.3 - December 29, 2014 =
 * Changed the way the plugin is loaded.
+* Fixed TinyMCE bug that removed all buttons if user had insufficient permissions, props remyvv.
 
 = 1.0.2 - December 16, 2014 =
 * Changed the way the plugin is loaded.
