@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Post Connector 1.0.0\n"
 "POT-Creation-Date: 2015-06-01 14:19-0000\n"
-"PO-Revision-Date: 2015-06-02 00:26-0000\n"
+"PO-Revision-Date: 2015-06-19 12:30-0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -80,7 +80,7 @@ msgstr "Conexões"
 
 #: core/classes/class-admin-menu.php:188
 msgid "Post Connector connections are the connections you've created between post types. Post Connector will add a meta box to the post edit screens of these post types so you can link post to each other in minutes."
-msgstr "As ligações do Post Connector são ligações que cria entre tipos de artigo. O Post Connector adiciona a caixa de metadados às páginas de edição dos artigos de modo a que possa conectar artigos entre si em minutos."
+msgstr "As ligações do Post Connector são ligações que foram criadas entre tipos de artigo. O Post Connector adiciona a caixa de metadados às páginas de edição dos artigos de modo a que possa conectar artigos entre si em minutos."
 
 #: core/classes/class-admin-menu.php:190
 msgid "Active Connections"
