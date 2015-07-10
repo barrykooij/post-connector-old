@@ -1,9 +1,9 @@
 === Post Connector ===
-Contributors: barrykooij
+Contributors: never5, barrykooij
 Donate link: https://www.post-connector.com/
 Tags: post connector, related, related posts, post connection, connection, connections, shortcode, widget
 Requires at least: 3.6
-Tested up to: 4.2
+Tested up to: 4.2.2
 Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,7 +20,6 @@ In WordPress, post types are often related, for instance, you might want to rela
 >
 > The Pro version of the plugin comes with the following features:
 >
-> - Related content suggestions
 > - Sortable post connections
 > - Backwards linking (parent to child AND child to parent)
 > - A developer friendly API
