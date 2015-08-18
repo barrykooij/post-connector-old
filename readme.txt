@@ -3,8 +3,8 @@ Contributors: never5, barrykooij
 Donate link: https://www.post-connector.com/
 Tags: post connector, related, related posts, post connection, connection, connections, shortcode, widget
 Requires at least: 3.6
-Tested up to: 4.2.2
-Stable tag: 1.0.5
+Tested up to: 4.3
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,12 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 8. Post Connector comes with a widget so you can display linked posts in any sidebar you want.
 
 == Changelog ==
+
+= 1.0.6 - August 18, 2015 =
+* Fixed shortcode and widget get_parent/get_child bug.
+* Fixed a backward compat bug.
+* Added possibility of adding image to widget.
+* Set thumbnail default to false.
 
 = 1.0.5 - April 26, 2015 =
 * Fixed a display excerpt bug in shortcode.
