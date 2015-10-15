@@ -43,9 +43,6 @@ function __post_connector_main() {
 
 	// Initiate plugin
 	new Post_Connector();
-	
-	// Load textdomain
-	load_plugin_textdomain('post-connector', false, basename( dirname( __FILE__ ) ) . '/languages' );
 }
 
 // Create object - Plugin init
