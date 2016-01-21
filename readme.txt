@@ -78,6 +78,10 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 
 == Changelog ==
 
+= 1.0.8 - January 21, 2016 =
+* Fixed a bug that caused translation not to load properly.
+* Updated translation files.
+
 = 1.0.7 - January 14, 2016 =
 * Fixed a bug where wp_reset_postdata() did not actually reset post data because admin.
 
