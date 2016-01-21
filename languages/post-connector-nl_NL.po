@@ -1,280 +1,673 @@
+# Copyright (C) 2016 Never5
+# This file is distributed under the same license as the Post Connector Premium package.
+# Translators:
+# Barry Kooij <mail@barrykooij.nl>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: SubPosts 1.0.0\n"
-"POT-Creation-Date: 2013-09-17 22:30+0100\n"
-"PO-Revision-Date: 2013-09-17 22:32+0100\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: English\n"
+"Project-Id-Version: Post Connector\n"
+"Report-Msgid-Bugs-To: https://github.com/barrykooij/post-connector/issues\n"
+"POT-Creation-Date: 2016-01-21 12:53:41+00:00\n"
+"PO-Revision-Date: 2016-01-21 12:55+0000\n"
+"Last-Translator: Barry Kooij <mail@barrykooij.nl>\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/barrykooijplugins/post-connector/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: ..\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
 
-#: ../assets/js/tinymce/editor_plugin_lang.php:5
-msgid "Sub Posts"
-msgstr "Sub Posts"
+#: core/assets/js/tinymce/editor_plugin_lang.php:5
+msgid "Post Connector"
+msgstr "Post Connector"
 
-#: ../assets/js/tinymce/editor_plugin_lang.php:6
-msgid "Show Childs"
-msgstr "Bekijk Childs"
+#: core/assets/js/tinymce/editor_plugin_lang.php:6
+msgid "Show Children"
+msgstr "Toon Childs"
 
-#: ../classes/control/AdminMenu.php:34 ../classes/control/AdminMenu.php:212
+#: core/classes/class-admin-menu.php:36 core/classes/class-admin-menu.php:340
 msgid "Add New"
 msgstr "Voeg nieuwe toe"
 
-#: ../classes/control/AdminMenu.php:35
-#: ../classes/control/Filters/PluginLinks.php:11
-msgid "License"
-msgstr "Licentie"
+#: core/classes/class-admin-menu.php:139
+msgid "Plugin version"
+msgstr "Plugin versie"
 
-#: ../classes/control/AdminMenu.php:79
-msgid "Meta information"
-msgstr "Meta informatie"
+#: core/classes/class-admin-menu.php:141
+msgid "PHP version:"
+msgstr "PHP versie:"
 
-#: ../classes/control/AdminMenu.php:80
-msgid "Version"
-msgstr "Versie"
+#: core/classes/class-admin-menu.php:149
+msgid "More information"
+msgstr "Meer informatie"
 
-#: ../classes/control/AdminMenu.php:95
-msgid "Active post type links"
-msgstr "Actieve post type links"
+#: core/classes/class-admin-menu.php:151
+msgid "<a href='%s'>Configuration Guide</a>"
+msgstr "<a href='%s'>Configuratie Handleiding</a>"
 
-#: ../classes/control/AdminMenu.php:101
-msgid "These are your active post type links."
-msgstr "Dit zijn jouw actieve post type links."
+#: core/classes/class-admin-menu.php:153
+msgid "<a href='%s'>Change log</a>"
+msgstr "<a href='%s'>Change log</a>"
 
-#: ../classes/control/AdminMenu.php:111 ../classes/control/AdminMenu.php:156
-msgid "Create new post type link"
-msgstr "Maak een nieuwe post type link"
+#: core/classes/class-admin-menu.php:155
+msgid "<a href='%s'>API</a>"
+msgstr "<a href='%s'>API</a>"
 
-#: ../classes/control/AdminMenu.php:139
+#: core/classes/class-admin-menu.php:159
+msgid "About the developer"
+msgstr "Over de ontwikkelaar"
+
+#: core/classes/class-admin-menu.php:161
+msgid ""
+"Barry has been a WordPress deleveloper for years and is the author of "
+"various WordPress plugins."
+msgstr "Barry is een WordPress ontwikkelaar en de maker van verschillende WordPress plugins."
+
+#: core/classes/class-admin-menu.php:163
+msgid ""
+"In his free time, Barry likes giving back by contributing various opensource"
+" projects. He also likes to visit and speak at WordPress meetups and "
+"WordCamps and is the organiser of the Dutch WordPress meetup in Tilburg."
+msgstr "In zijn vrij tijd geeft Barry graag terug aan verschillen open source projecten. Daarnaast bezoekt en spreekt bij op WordPress meetups en WordCamps. Ook is hij de organisator van de Nederlandse WordPress meetup in Tilburg."
+
+#: core/classes/class-admin-menu.php:165
+msgid "You can follow Barry on Twitter <a href='%s'>here</a>."
+msgstr "You can Barry <a href='%s'>hier volgen</a> op Twitter."
+
+#: core/classes/class-admin-menu.php:181
+msgid "Connections"
+msgstr "Connecties"
+
+#: core/classes/class-admin-menu.php:188
+msgid ""
+"Post Connector connections are the connections you've created between post "
+"types. Post Connector will add a meta box to the post edit screens of these "
+"post types so you can link post to each other in minutes."
+msgstr "Post Connector connecties zijn de connecties welke je aangemaakt hebt tussen post types. Post Connector voegt aan de bewerk schermen van deze post types een meta box toe waarin je posts aan elkaar kan koppelen."
+
+#: core/classes/class-admin-menu.php:190
+msgid "Active Connections"
+msgstr "Actieve Connecties"
+
+#: core/classes/class-admin-menu.php:197 core/classes/class-admin-menu.php:203
+#: core/classes/class-admin-menu.php:248
+msgid "Create a new connection"
+msgstr "Maak nieuwe connectie"
+
+#: core/classes/class-admin-menu.php:199
+msgid ""
+"Before you can link posts to each other you need to create a connection "
+"between their post types first. Click the 'Create a new connection' button "
+"to get started."
+msgstr "Voordat je posts aan elkaar kan linken moet je eerst een connectie maken tussen 2 post types. Klik op de 'Maak nieuwe connectie' knop om te beginnen."
+
+#: core/classes/class-admin-menu.php:231
 msgid "Posts"
 msgstr "Berichten"
 
-#: ../classes/control/AdminMenu.php:140
+#: core/classes/class-admin-menu.php:232
 msgid "Pages"
 msgstr "Pagina's"
 
-#: ../classes/control/AdminMenu.php:154
-msgid "Edit post type link"
-msgstr "Bewerk post type link"
+#: core/classes/class-admin-menu.php:246
+msgid "Edit connection"
+msgstr "Bewerk connectie"
 
-#: ../classes/control/AdminMenu.php:172 ../classes/control/AdminMenu.php:173
-#: ../classes/view/ManageLinks_ListTable.php:22
-msgid "Slug"
-msgstr "Slug"
+#: core/classes/class-admin-menu.php:267
+msgid ""
+"To create or edit a post connection, fill in the below form and press the "
+"'save connection' button."
+msgstr "Je kan een connectie maken of bewerken door het onderstaande formulier in te vullen en op de 'Connectie opslaan' knop te klikken."
 
-#: ../classes/control/AdminMenu.php:176 ../classes/control/AdminMenu.php:177
-#: ../classes/control/Widgets/ShowChilds.php:74
-#: ../classes/view/CreateLink_ListTable.php:29
-#: ../classes/view/ManageLinks_ListTable.php:21
+#: core/classes/class-admin-menu.php:269
+msgid "Main settings"
+msgstr "Hoofdinstellingen"
+
+#: core/classes/class-admin-menu.php:276
+msgid "Connection Title"
+msgstr "Connectie titel"
+
+#: core/classes/class-admin-menu.php:279
+#: core/classes/class-create-link-list-table.php:75
+#: core/classes/class-manage-links-list-table.php:20
+#: core/classes/widgets/class-widget-show-children.php:102
+#: premium/classes/widgets/class-widget-show-parents.php:126
 msgid "Title"
 msgstr "Titel"
 
-#: ../classes/control/AdminMenu.php:180
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:46
-#: ../classes/control/Widgets/ShowChilds.php:100
-msgid "Parent"
-msgstr "Hoofd"
+#: core/classes/class-admin-menu.php:281
+msgid ""
+"The title of the connection, can be automatically shown above linked posts."
+msgstr "De titel van de connectie, kan automatisch getoond worden boven de gelinkte berichten."
 
-#: ../classes/control/AdminMenu.php:182 ../classes/control/AdminMenu.php:194
+#: core/classes/class-admin-menu.php:287
+msgid "Connection Slug"
+msgstr "Connectie slug"
+
+#: core/classes/class-admin-menu.php:289
+#: core/classes/class-manage-links-list-table.php:21
+msgid "Slug"
+msgstr "Slug"
+
+#: core/classes/class-admin-menu.php:291
+msgid ""
+"Unique identifier of the connection, will automatically generate if left "
+"empty."
+msgstr "Unieke identifier van de connectie, wordt automatische gegenereerd wanneer leeg gelaten."
+
+#: core/classes/class-admin-menu.php:297
+msgid "Parent post type"
+msgstr "Parent post type"
+
+#: core/classes/class-admin-menu.php:301 core/classes/class-admin-menu.php:319
 msgid "Select a post type"
 msgstr "Kies een post type"
 
-#: ../classes/control/AdminMenu.php:192
-msgid "Child"
-msgstr "Child"
+#: core/classes/class-admin-menu.php:315
+msgid "Child post type"
+msgstr "Kind post type"
 
-#: ../classes/control/AdminMenu.php:205
-msgid "Sortable"
-msgstr "Sorteerbaar"
+#: core/classes/class-admin-menu.php:334
+msgid "Create new link settings"
+msgstr "Maak nieuwe link instellingen"
 
-#: ../classes/control/AdminMenu.php:207 ../classes/control/AdminMenu.php:214
-#: ../classes/control/AdminMenu.php:221
-msgid "Yes"
-msgstr "Ja"
+#: core/classes/class-admin-menu.php:342
+msgid "Allow users to create and link new posts."
+msgstr "Sta het maken en linken van nieuwe posts toe"
 
-#: ../classes/control/AdminMenu.php:208 ../classes/control/AdminMenu.php:215
-#: ../classes/control/AdminMenu.php:222
-msgid "No"
-msgstr "Nee"
-
-#: ../classes/control/AdminMenu.php:219
+#: core/classes/class-admin-menu.php:348
 msgid "Add Existing"
 msgstr "Voeg bestaande toe"
 
-#: ../classes/control/AdminMenu.php:226 ../classes/control/AdminMenu.php:280
-msgid "Save"
-msgstr "Opslaan"
+#: core/classes/class-admin-menu.php:350
+msgid "Allow users to link existing posts."
+msgstr "Sta het linken van bestaande posts toe."
 
-#: ../classes/control/AdminMenu.php:242
-msgid "License settings"
-msgstr "Licentie instellingen"
+#: core/classes/class-admin-menu.php:358
+msgid "Automatically display linked children"
+msgstr "Automatisch tonen van gelinkte kinderen"
 
-#: ../classes/control/AdminMenu.php:252
-msgid "License Key"
-msgstr "Licentie sleutel"
+#: core/classes/class-admin-menu.php:364
+msgid "Display linked children?"
+msgstr "Toon gelinkte kinderen?"
 
-#: ../classes/control/AdminMenu.php:256
-msgid "Enter your license key"
-msgstr "Voer uw licentie sleutel in"
+#: core/classes/class-admin-menu.php:366
+msgid "Display the linked child posts under each parent post."
+msgstr "Toon de gelinkte kinderen (berichten) onder iedere hoofd post."
 
-#: ../classes/control/AdminMenu.php:265
-msgid "License Status"
-msgstr "Licentie status"
+#: core/classes/class-admin-menu.php:393
+msgid "Save Connection"
+msgstr "Connectie Opslaan"
 
-#: ../classes/control/AdminMenu.php:269
-msgid "ACTIVE"
-msgstr "ACTIEF"
+#: core/classes/class-create-link-list-table.php:46
+msgid "All"
+msgstr "Alles"
 
-#: ../classes/control/AdminMenu.php:270
-msgid "Deactivate License"
-msgstr "Deactiveer licentie"
-
-#: ../classes/control/AdminMenu.php:272
-msgid "INACTIVE"
-msgstr "INACTIEF"
-
-#: ../classes/control/AdminMenu.php:273
-msgid "Activate License"
-msgstr "Activeer licentie"
-
-#: ../classes/control/PostLinkManager.php:152
-#, php-format
-msgid "Slug '%s' does not exists"
-msgstr "Slug '%s' bestaat niet"
-
-#: ../classes/control/Filters/PluginLinks.php:12
-msgid "Manage"
-msgstr "Beheren"
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:17
-msgid "Insert Sub Posts GetChilds Shortcode"
-msgstr "Voeg Sub Posts GetChilds Shortcode in"
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:18
-msgid "Use the form below to generate a GetChilds shortcode."
-msgstr ""
-"Gebruik het formulier hieronder om een GetChilds shortcode te genereren."
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:30
-#: ../classes/control/Widgets/ShowChilds.php:79
-msgid "Post Link"
-msgstr "Post Link"
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:36
-#: ../classes/control/Widgets/ShowChilds.php:85
-msgid "Select Post Link"
-msgstr "Selecteer Post Link"
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:53
-#: ../classes/control/Widgets/ShowChilds.php:127
-msgid "Make childs clickable"
-msgstr "Maak childs klikbaar"
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:61
-#: ../classes/control/Widgets/ShowChilds.php:135
-msgid "Display excerpt"
-msgstr "Toon samenvatting"
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:75
-msgid "Insert Shortcode"
-msgstr "Voeg shortcode in"
-
-#: ../classes/control/Hooks/FooterTickboxShortcode.php:76
-msgid "Cancel"
-msgstr "Annuleren"
-
-#: ../classes/control/Hooks/LinkPostScreen.php:27
-#: ../classes/control/Hooks/LinkPostScreen.php:34
-#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:31
-msgid "You're not allowed to do this."
-msgstr "Het is niet toegestaan ​​om dit te doen."
-
-#: ../classes/control/Hooks/LinkPostScreen.php:161
-msgid "Cancel linking"
-msgstr "Annuleer linken"
-
-#: ../classes/control/Hooks/LinkPostScreen.php:169
-msgid "Search"
-msgstr "Zoeken"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:79
-#, php-format
-msgid "Add new %s"
-msgstr "Voeg nieuwe %s toe"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:88
-#, php-format
-msgid "Add existing %s"
-msgstr "Voeg bestaande %s toe"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:114
-msgid "Edit this item"
-msgstr "Bewerk dit item"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:115
-#: ../classes/view/ManageLinks_ListTable.php:94
-msgid "Edit"
-msgstr "Bewerk"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:117
-msgid "Delete this item"
-msgstr "Verwijder dit item"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:118
-#: ../classes/view/ManageLinks_ListTable.php:99
-msgid "Delete"
-msgstr "Verwijder"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Manage.php:131
-#, php-format
-msgid "No %s found."
-msgstr "Geen %s gevonden."
-
-#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:57
-msgid "Sub Posts Meta"
-msgstr "Sub Posts Meta"
-
-#: ../classes/control/metaboxes/SP_MetaBox_Meta.php:101
-msgid "This MetaBox is required by Sub Posts."
-msgstr "Deze MetaBox is door Sub Posts vereist."
-
-#: ../classes/control/Widgets/ShowChilds.php:19
-msgid "Sub Posts - Show Childs"
-msgstr "Sub Posts - Toon Childs"
-
-#: ../classes/control/Widgets/ShowChilds.php:20
-msgid "Display linked childs by a parent or current post"
-msgstr "Toon gelinkte childs aan de hand van hoofd of huidige post"
-
-#: ../classes/control/Widgets/ShowChilds.php:112
-#: ../classes/model/JavaScriptStrings.php:13
-msgid "Current queried object"
-msgstr "Huidige object"
-
-#: ../classes/model/JavaScriptStrings.php:11
-msgid "Are you sure you want to delete this post?"
-msgstr "Weet je zeker dat je dit bericht wilt verwijderen?"
-
-#: ../classes/model/JavaScriptStrings.php:12
-msgid "Are you sure you want to delete this link?"
-msgstr "Weet je zeker dat je deze link wilt verwijderen?"
-
-#: ../classes/view/CreateLink_ListTable.php:98
-#: ../classes/view/CreateLink_ListTable.php:121
+#: core/classes/class-create-link-list-table.php:177
+#: core/classes/class-create-link-list-table.php:212
 msgid "Link"
 msgstr "Link"
 
-#: ../classes/view/ManageLinks_ListTable.php:23
+#: core/classes/class-javascript-strings.php:11
+msgid "Are you sure you want to delete this post?"
+msgstr "Weet je zeker dat je dit bericht wilt verwijderen?"
+
+#: core/classes/class-javascript-strings.php:12
+msgid "Are you sure you want to delete this link?"
+msgstr "Weet je zeker dat je deze link wilt verwijderen?"
+
+#: core/classes/class-javascript-strings.php:13
+#: core/classes/widgets/class-widget-show-children.php:141
+#: premium/classes/widgets/class-widget-show-parents.php:165
+msgid "Current page"
+msgstr "Huidige pagina"
+
+#: core/classes/class-manage-links-list-table.php:22
 msgid "Parent post"
 msgstr "Hoofd item"
 
-#: ../classes/view/ManageLinks_ListTable.php:24
+#: core/classes/class-manage-links-list-table.php:23
 msgid "Child post"
 msgstr "Child item"
+
+#: core/classes/class-manage-links-list-table.php:93
+#: core/classes/meta-boxes/class-meta-box-manage.php:146
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:126
+msgid "Edit"
+msgstr "Bewerk"
+
+#: core/classes/class-manage-links-list-table.php:98
+#: core/classes/meta-boxes/class-meta-box-manage.php:149
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:129
+msgid "Delete"
+msgstr "Verwijder"
+
+#: core/classes/class-post-link-manager.php:165
+msgid "Slug '%s' does not exists"
+msgstr "Slug '%s' bestaat niet"
+
+#: core/classes/co-filters/class-co-filter-plugin-links.php:12
+#: premium/classes/filters/class-filter-plugin-links.php:13
+msgid "Manage"
+msgstr "Beheren"
+
+#: core/classes/co-filters/class-co-filter-plugin-links.php:13
+msgid "GO PRO"
+msgstr "Upgrade naar PRO"
+
+#: core/classes/co-hooks/class-co-hook-menu.php:8
+msgid "Upgrade to Pro"
+msgstr "Upgrade naar PRO"
+
+#. Plugin Name of the plugin/theme
+msgid "Post Connector Premium"
+msgstr "Post Connector Premium"
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:12
+msgid ""
+"This plugin has an even better premium version, I am sure you will love it."
+msgstr "Deze plugin heeft een nog betere premium versie, ik weet zeker dat je hem geweldig vindt."
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:13
+msgid ""
+"Pro features include sortable post connections, backwards linking, a "
+"developer friendly API and priority support."
+msgstr "Pro heeft onder andere sorteerbare connecties, terug linken van kind- naar hoofd items, een developer API en prioriteit support."
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:14
+msgid "%sMore information about Post Connector Premium »%s"
+msgstr "%sMeer informatie over Post Connector Premium »%s"
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:18
+#: premium/classes/hooks/class-hook-sidebar.php:9
+msgid "Looking for support?"
+msgstr "Hulp nodig?"
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:20
+msgid "For support please visit the <a href='%s'>WordPress.org forums</a>."
+msgstr "Voor hulp kan je een ticket aanmaken op het <a href='%s'>WordPress.org forum</a>."
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:22
+msgid ""
+"Did you know that Post Connector Premium clients get priority email support?"
+" %sClick here to upgrade.%s"
+msgstr "Wist je dat Post Connector Premium klanten prioriteit support via email krijgen? %sKlik hier om te upgraden%s"
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:26
+msgid "Show a token of your appreciation"
+msgstr "Toon je waardering"
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:28
+msgid ""
+"<a href='%s' target='_blank'>Leave a ★★★★★ plugin review on "
+"WordPress.org</a>."
+msgstr "<a href='%s' target='_blank'>Geef ons een ★★★★★ plugin review op WordPress.org</a>."
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:29
+msgid "<a href='%s' target='_blank'>Tweet about Post Connector</a>."
+msgstr "<a href='%s' target='_blank'>Tweet over Post Connector</a>."
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:30
+msgid ""
+"Review the plugin on your blog and link to <a href='%s' target='_blank'>the "
+"plugin page</a>."
+msgstr "Review de plugin op je blog en link naar <a href='%s' target='_blank'>de plugin pagina</a>."
+
+#: core/classes/co-hooks/class-co-hook-sidebar.php:31
+msgid ""
+"<a href='%s' target='_blank'>Vote 'works' on the WordPress.org plugin "
+"page</a>."
+msgstr "<a href='%s' target='_blank'>Stem 'works' op de WordPress.org plugin pagina</a>."
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:19
+msgid "Insert Post Connector show_children shortcode"
+msgstr "Voeg Post Connector show_children shortcode toe"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:20
+msgid "Use the form below to generate a show_children shortcode."
+msgstr "Gebruik onderstaand formulier om de show_children shortcode te genereren."
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:32
+msgid "Connection"
+msgstr "Connectie"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:39
+msgid "Select Connection"
+msgstr "Selecteer Connectie"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:49
+#: core/classes/widgets/class-widget-show-children.php:129
+msgid "Parent"
+msgstr "Hoofd"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:56
+#: core/classes/widgets/class-widget-show-children.php:156
+#: premium/classes/widgets/class-widget-show-parents.php:180
+msgid "Make children clickable"
+msgstr "Maak kind posts klikbaar"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:64
+#: core/classes/widgets/class-widget-show-children.php:164
+#: premium/classes/widgets/class-widget-show-parents.php:188
+msgid "Display excerpt"
+msgstr "Toon samenvatting"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:78
+msgid "Insert Shortcode"
+msgstr "Voeg shortcode in"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:79
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: core/classes/hooks/class-hook-link-post-screen.php:33
+#: core/classes/hooks/class-hook-link-post-screen.php:40
+#: core/classes/meta-boxes/class-meta-box-meta.php:51
+msgid "You're not allowed to do this."
+msgstr "Het is niet toegestaan ​​om dit te doen."
+
+#: core/classes/hooks/class-hook-link-post-screen.php:203
+msgid "Cancel linking"
+msgstr "Annuleer linken"
+
+#: core/classes/hooks/class-hook-link-post-screen.php:219
+msgid "Search"
+msgstr "Zoeken"
+
+#: core/classes/meta-boxes/class-meta-box-manage.php:86
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:85
+msgid "Add new %s"
+msgstr "Voeg nieuwe %s toe"
+
+#: core/classes/meta-boxes/class-meta-box-manage.php:112
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:103
+msgid "Add existing %s"
+msgstr "Voeg bestaande %s toe"
+
+#: core/classes/meta-boxes/class-meta-box-manage.php:145
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:125
+msgid "Edit this item"
+msgstr "Bewerk dit item"
+
+#: core/classes/meta-boxes/class-meta-box-manage.php:148
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:128
+msgid "Delete this item"
+msgstr "Verwijder dit item"
+
+#: core/classes/meta-boxes/class-meta-box-manage.php:162
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:141
+msgid "No %s found."
+msgstr "Geen %s gevonden."
+
+#: core/classes/widgets/class-widget-show-children.php:22
+msgid "Post Connector - Show Children"
+msgstr "Post Connector - Toon Kind Posts"
+
+#: core/classes/widgets/class-widget-show-children.php:23
+msgid "Display linked children by a parent or current post"
+msgstr "Toon gelinkte kind posts aan de hand van de hoofd post of de huidige post"
+
+#: core/classes/widgets/class-widget-show-children.php:107
+#: premium/classes/widgets/class-widget-show-parents.php:131
+msgid "Post Link"
+msgstr "Post Link"
+
+#: core/classes/widgets/class-widget-show-children.php:114
+#: premium/classes/widgets/class-widget-show-parents.php:138
+msgid "Select Post Link"
+msgstr "Selecteer Post Link"
+
+#: core/classes/widgets/class-widget-show-children.php:172
+#: premium/classes/widgets/class-widget-show-parents.php:196
+msgid "Display thumbnail"
+msgstr "Toon Afbeelding"
+
+#: premium/classes/filters/class-filter-plugin-links.php:12
+#: premium/classes/hooks/class-hook-license-page-multisite.php:12
+#: premium/classes/hooks/class-hook-license-page.php:12
+msgid "License"
+msgstr "Licentie"
+
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:14
+msgid "Display excerpt?"
+msgstr "Samenvatting tonen?"
+
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:16
+msgid "Display the excerpt of linked children."
+msgstr "Toon de samenvatting van de gelinkte kinderen."
+
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:22
+msgid "Display image?"
+msgstr "Afbeelding tonen?"
+
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:24
+msgid "Display the featured image of linked children."
+msgstr "Toon de afbeelding de gelinkte kind posts."
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:14
+msgid "Automatically display linked parents"
+msgstr "Toon de gelinkte hoofd items automatisch"
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:20
+msgid "Display linked parents?"
+msgstr "Gelinkte hoofd items tonen?"
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:22
+msgid "Display the linked parent posts under each child post."
+msgstr "Toon de gelinkte hoofd items onder iedere kind post."
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:30
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:36
+msgid "Sortable"
+msgstr "Sorteerbaar"
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:39
+msgid "Allow users to sort children in the meta box at the edit post screen."
+msgstr "Sta het sorteren van de gelinkte posts in de meta box toe."
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:47
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:34
+msgid "Backwards linking"
+msgstr "Terug linken"
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:53
+msgid "Enable backwards linking"
+msgstr "Schakel terug linken in"
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:55
+msgid "Enable Backwards linking."
+msgstr "Schakel terug linken in."
+
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:58
+msgid ""
+"Backwards linking allows users to link parents to children from within the "
+"child post."
+msgstr "Terug linken staat het linken van hoofd items aan child items toe vanuit de kind post."
+
+#: premium/classes/hooks/class-hook-license-page-multisite.php:25
+#: premium/classes/hooks/class-hook-license-page.php:25
+msgid "License settings"
+msgstr "Licentie instellingen"
+
+#: premium/classes/hooks/class-hook-sidebar.php:11
+msgid "For support questions please drop us an email at <a href='%s'>%s</a>."
+msgstr "For support vragen kunt u een email sturen naar <a href='%s'>%s</a>."
+
+#: premium/classes/license-manager/class-license-manager.php:137
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr "<b>Waarschuwing!</b> Je server blokkeert externe requests waardoor we geen contact kunnen maken met de update server. Voeg aub %s toe aan %s."
+
+#: premium/classes/license-manager/class-license-manager.php:178
+msgid "Your %s license has been activated. "
+msgstr "Je %s licentie is geactiveerd."
+
+#: premium/classes/license-manager/class-license-manager.php:182
+msgid "You have an unlimited license. "
+msgstr "Je hebt een niet gelimiteerde licentie."
+
+#: premium/classes/license-manager/class-license-manager.php:184
+msgid "You have used %d/%d activations. "
+msgstr "Je hebt %d/%d activaties gebruikt."
+
+#: premium/classes/license-manager/class-license-manager.php:189
+msgid "<a href=\"%s\">Did you know you can upgrade your license?</a>"
+msgstr "<a href=\"%s\">Wist je dat je je licentie kan upgraden?</a>"
+
+#: premium/classes/license-manager/class-license-manager.php:193
+msgid ""
+"<a href=\"%s\">Your license is expiring in %d days, would you like to extend"
+" it?</a>"
+msgstr "<a href=\"%s\">Je licentie verloopt in %d dagen, wil je deze verlengen?</a>"
+
+#: premium/classes/license-manager/class-license-manager.php:202
+msgid ""
+"You've reached your activation limit. You must <a href=\"%s\">upgrade your "
+"license</a> to use it on this site."
+msgstr "Je hebt je activatie limiet bereikt. Je moet je <a href=\"%s\">licentie upgraden</a> voordat je deze op deze website kan activeren."
+
+#: premium/classes/license-manager/class-license-manager.php:205
+msgid ""
+"Your license has expired. You must <a href=\"%s\">extend your license</a> in"
+" order to use it again."
+msgstr "Je licentie is verlopen. Je moet je <a href=\"%s\">licentie verlengen</a> voordat deze weer bruikbaar is."
+
+#: premium/classes/license-manager/class-license-manager.php:208
+msgid "Failed to activate your license, your license key seems to be invalid."
+msgstr "Licentie activeren mislukt, je licentie sleutel lijkt niet correct."
+
+#: premium/classes/license-manager/class-license-manager.php:232
+msgid "Your %s license has been deactivated."
+msgstr "Je %s licentie is gedeactiveerd."
+
+#: premium/classes/license-manager/class-license-manager.php:234
+msgid "Failed to deactivate your %s license."
+msgstr "%s licentie activeren mislukt."
+
+#: premium/classes/license-manager/class-license-manager.php:269
+msgid "Request error: \"%s\" (%scommon license notices%s)"
+msgstr "Request error: \"%s\" (%scommon license notices%s)"
+
+#: premium/classes/license-manager/class-license-manager.php:425
+msgid "%s: License Settings"
+msgstr "%s: Licentie Instellingen"
+
+#: premium/classes/license-manager/class-plugin-license-manager.php:73
+msgid ""
+"%s is network activated, you can manage your license in the <a "
+"href=\"%s\">network admin license page</a>."
+msgstr "%s is netwerk geactiveerd, je kan je licentie beheren op de <a href=\"%s\">network admin licentie pagina</a>. "
+
+#: premium/classes/license-manager/class-plugin-license-manager.php:75
+msgid ""
+"%s is network activated, please contact your site administrator to manage "
+"the license."
+msgstr "%s is netwerk geactiveerd, neem contact op met je website administrator om je licentie te beheren."
+
+#: premium/classes/license-manager/class-theme-license-manager.php:34
+#: premium/classes/license-manager/samples/sample-plugin.php:53
+msgid "%s License"
+msgstr "%s Licentie"
+
+#: premium/classes/license-manager/class-theme-license-manager.php:34
+msgid "Theme License"
+msgstr "Thema Licentie"
+
+#: premium/classes/license-manager/class-theme-update-manager.php:96
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: premium/classes/license-manager/class-theme-update-manager.php:101
+msgid ""
+"<strong>%s version %s</strong> is available. <a href=\"%s\" "
+"class=\"thickbox\" title=\"%s\">Check out what's new</a> or <a href=\"%s\" "
+"%s>update now</a>."
+msgstr "<strong>%s versie %s</strong> is beschikbaar. <a href=\"%s\" class=\"thickbox\" title=\"%s\">Kijk wat er nieuw is</a> of <a href=\"%s\" %s>update nu</a>."
+
+#: premium/classes/license-manager/class-update-manager.php:83
+msgid ""
+"%s failed to check for updates because of the following error: <em>%s</em>"
+msgstr "%s mislukt om te checken of er updates zijn met de volgende foutmelding: <em>%s</em>"
+
+#: premium/classes/license-manager/class-update-manager.php:153
+msgid ""
+"This site has not been activated properly on post-connector.com and thus "
+"cannot check for future updates. Please activate your site with a valid "
+"license key."
+msgstr "Deze website is niet correct geactiveerd op post-connector.com en kan daarom niet geupdate worden. Activeer aub deze website met een geldige licentie."
+
+#: premium/classes/license-manager/views/form.php:23
+msgid "License status"
+msgstr "Licentie status"
+
+#: premium/classes/license-manager/views/form.php:33
+msgid "Toggle license status"
+msgstr "Verander licentie status"
+
+#: premium/classes/license-manager/views/form.php:37
+msgid "Deactivate License"
+msgstr "Deactiveer licentie"
+
+#: premium/classes/license-manager/views/form.php:38
+msgid ""
+"(deactivate your license so you can activate it on another WordPress site)"
+msgstr "(deactiveer je licentie zodat je deze kan activeren op een andere WordPress website)"
+
+#: premium/classes/license-manager/views/form.php:42
+msgid "Activate License"
+msgstr "Activeer licentie"
+
+#: premium/classes/license-manager/views/form.php:44
+msgid "Please enter a license key in the field below first."
+msgstr "Vul je licentie sleutel hieronder in"
+
+#: premium/classes/license-manager/views/form.php:52
+msgid "License Key"
+msgstr "Licentie sleutel"
+
+#: premium/classes/license-manager/views/form.php:54
+msgid "Paste your %s license key here.."
+msgstr "Plak je %s licentie sleutel hier.."
+
+#: premium/classes/license-manager/views/form.php:56
+msgid "You defined your license key using the %s PHP constant."
+msgstr "Je hebt je licentie sleutel gedefinieerd met de %s PHP constant."
+
+#: premium/classes/license-manager/views/form.php:73
+msgid "Your %s license will expire on %s."
+msgstr "Je %s licentie verloopt op %s."
+
+#: premium/classes/license-manager/views/form.php:76
+msgid "%sRenew your license now%s."
+msgstr "%sVernieuw je licentie nu%s."
+
+#: premium/classes/widgets/class-widget-show-parents.php:25
+msgid "Post Connector - Show Parents"
+msgstr "Post Connector - Toon Hoofd Items"
+
+#: premium/classes/widgets/class-widget-show-parents.php:26
+msgid "Display linked parents by a child or current post"
+msgstr "Toon gelinkte hoofd items bij child items."
+
+#: premium/classes/widgets/class-widget-show-parents.php:153
+msgid "Child"
+msgstr "Kind item"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.post-connector.com/"
+msgstr "https://www.post-connector.com/"
+
+#. Description of the plugin/theme
+msgid "With Post Connector you can easily link posts to each other."
+msgstr "Post Connector maakt het aan elkaar koppelen van posts makkelijker dan ooit."
+
+#. Author of the plugin/theme
+msgid "Never5"
+msgstr "Never5"
+
+#. Author URI of the plugin/theme
+msgid "http://www.never5.com/"
+msgstr "http://www.never5.com/"
