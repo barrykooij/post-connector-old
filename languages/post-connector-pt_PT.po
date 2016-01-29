@@ -2,16 +2,16 @@
 # This file is distributed under the same license as the Post Connector package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Post Connector 1.0.0\n"
+"Project-Id-Version: Post Connector 1.0.8\n"
 "POT-Creation-Date: 2015-06-01 14:19-0000\n"
-"PO-Revision-Date: 2015-10-15 12:06+0100\n"
+"PO-Revision-Date: 2016-01-29 15:26+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: core/assets/js/tinymce/editor_plugin_lang.php:5
 msgid "Post Connector"
-msgstr "Conector de artigos"
+msgstr "Post Connector"
 
 #: core/assets/js/tinymce/editor_plugin_lang.php:6
 msgid "Show Children"
@@ -80,7 +80,7 @@ msgstr "Conexões"
 
 #: core/classes/class-admin-menu.php:188
 msgid "Post Connector connections are the connections you've created between post types. Post Connector will add a meta box to the post edit screens of these post types so you can link post to each other in minutes."
-msgstr "As ligações do Post Connector são ligações que foram criadas entre tipos de artigo. O Post Connector adiciona a caixa de metadados às páginas de edição dos artigos de modo a que possa conectar artigos entre si em minutos."
+msgstr "As ligações do Post Connector são ligações que foram criadas entre tipos de conteúdo. O Post Connector adiciona a caixa de metadados às páginas de edição dos conteúdos de modo a que possa conectar conteúdos entre si em minutos."
 
 #: core/classes/class-admin-menu.php:190
 msgid "Active Connections"
@@ -93,7 +93,7 @@ msgstr "Criar nova conexão"
 
 #: core/classes/class-admin-menu.php:199
 msgid "Before you can link posts to each other you need to create a connection between their post types first. Click the 'Create a new connection' button to get started."
-msgstr "Antes que possa conectar artigos entre si, primeiro tem que criar uma conexão entre os seus tipos de artigos. Clique aqui no botão 'Criar nova conexão' para começar."
+msgstr "Antes que possa conectar conteúdos entre si, primeiro tem que criar uma conexão entre os seus tipos de conteúdo. Clique aqui no botão 'Criar nova conexão' para começar."
 
 #: core/classes/class-admin-menu.php:231
 msgid "Posts"
@@ -109,7 +109,7 @@ msgstr "Editar conexão"
 
 #: core/classes/class-admin-menu.php:267
 msgid "To create or edit a post connection, fill in the below form and press the 'save connection' button."
-msgstr "Para criar ou editar uma nova conexão de artigos, preencha o formulário abaixo e prima o botão 'guardar conexão'."
+msgstr "Para criar ou editar uma nova conexão de conteúdos, preencha o formulário abaixo e prima o botão 'Guardar conexão'."
 
 #: core/classes/class-admin-menu.php:269
 msgid "Main settings"
@@ -128,16 +128,16 @@ msgstr "Título"
 
 #: core/classes/class-admin-menu.php:281
 msgid "The title of the connection, can be automatically shown above linked posts."
-msgstr "O título da conexão, pode ser mostrado automaticamente acima dos artigos ligados."
+msgstr "O título da conexão, pode ser mostrado automaticamente acima dos conteúdos ligados."
 
 #: core/classes/class-admin-menu.php:287
 msgid "Connection Slug"
-msgstr "URL da conexão"
+msgstr "Slug da conexão"
 
 #: core/classes/class-admin-menu.php:289
 #: core/classes/class-manage-links-list-table.php:21
 msgid "Slug"
-msgstr "URL"
+msgstr "Slug"
 
 #: core/classes/class-admin-menu.php:291
 msgid "Unique identifier of the connection, will automatically generate if left empty."
@@ -145,15 +145,15 @@ msgstr "Identificador único da conexão, será gerado automaticamente se não f
 
 #: core/classes/class-admin-menu.php:297
 msgid "Parent post type"
-msgstr "Tipo de artigo superior"
+msgstr "Tipo de conteúdo superior"
 
 #: core/classes/class-admin-menu.php:301 core/classes/class-admin-menu.php:319
 msgid "Select a post type"
-msgstr "Seleccione um tipo de artigo"
+msgstr "Seleccione um tipo de conteúdo"
 
 #: core/classes/class-admin-menu.php:315
 msgid "Child post type"
-msgstr "Tipo de artigo dependente"
+msgstr "Tipo de conteúdo dependente"
 
 #: core/classes/class-admin-menu.php:334
 msgid "Create new link settings"
@@ -161,7 +161,7 @@ msgstr "Definições para criação de novas ligações"
 
 #: core/classes/class-admin-menu.php:342
 msgid "Allow users to create and link new posts."
-msgstr "Permitir aos utilizadores criar e ligar novos artigos."
+msgstr "Permitir aos utilizadores criar e ligar a novos conteúdos."
 
 #: core/classes/class-admin-menu.php:348
 msgid "Add Existing"
@@ -169,7 +169,7 @@ msgstr "Adicionar existente"
 
 #: core/classes/class-admin-menu.php:350
 msgid "Allow users to link existing posts."
-msgstr "Permitir aos utilizadores ligar artigos existentes."
+msgstr "Permitir aos utilizadores ligar a conteúdos existentes."
 
 #: core/classes/class-admin-menu.php:358
 msgid "Automatically display linked children"
@@ -181,7 +181,7 @@ msgstr "Mostrar dependentes ligados?"
 
 #: core/classes/class-admin-menu.php:366
 msgid "Display the linked child posts under each parent post."
-msgstr "Mostrar os artigos dependentes ligados abaixo de cada artigo superior."
+msgstr "Mostrar os conteúdos dependentes ligados abaixo de cada conteúdo superior."
 
 #: core/classes/class-admin-menu.php:393
 msgid "Save Connection"
@@ -198,11 +198,11 @@ msgstr "Ligar"
 
 #: core/classes/class-javascript-strings.php:11
 msgid "Are you sure you want to delete this post?"
-msgstr "Tem a certeza que quer apagar este artigo?"
+msgstr "Tem a certeza que quer eliminar este conteúdo?"
 
 #: core/classes/class-javascript-strings.php:12
 msgid "Are you sure you want to delete this link?"
-msgstr "Tem a certeza que quer apagar esta ligação?"
+msgstr "Tem a certeza que quer eliminar esta ligação?"
 
 #: core/classes/class-javascript-strings.php:13
 #: core/classes/widgets/class-widget-show-children.php:139
@@ -211,11 +211,11 @@ msgstr "Página actual"
 
 #: core/classes/class-manage-links-list-table.php:22
 msgid "Parent post"
-msgstr "Artigo superior"
+msgstr "Conteúdo superior"
 
 #: core/classes/class-manage-links-list-table.php:23
 msgid "Child post"
-msgstr "Artigo dependente"
+msgstr "Conteúdo dependente"
 
 #: core/classes/class-manage-links-list-table.php:93
 #: core/classes/meta-boxes/class-meta-box-manage.php:147
@@ -225,12 +225,12 @@ msgstr "Editar"
 #: core/classes/class-manage-links-list-table.php:98
 #: core/classes/meta-boxes/class-meta-box-manage.php:150
 msgid "Delete"
-msgstr "Apagar"
+msgstr "Eliminar"
 
 #: core/classes/class-post-link-manager.php:165
 #, php-format
 msgid "Slug '%s' does not exists"
-msgstr "O URL '%s' não existe"
+msgstr "A slug '%s' não existe"
 
 #: core/classes/co-filters/class-co-filter-plugin-links.php:12
 msgid "Manage"
@@ -254,7 +254,7 @@ msgstr "Este plugin tem uma versão premium ainda melhor, tenho a certeza que va
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:13
 msgid "Pro features include related content suggestions, sortable post connections, backwards linking, a developer friendly API and priority support."
-msgstr "Os recursos Pro incluem sugestões de conteúdo relacionado, ordenação de ligações entre artigos, ligações em sentido inverso, uma API amigável para programadores e suporte prioritário."
+msgstr "Os recursos Pro incluem sugestões de conteúdo relacionado, ordenação de ligações entre conteúdos, ligações em sentido inverso, uma API amigável para programadores e suporte prioritário."
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:14
 #, php-format
@@ -301,7 +301,7 @@ msgstr "<a href='%s' target='_blank'>Vote 'funciona' na página do plugin no Wor
 
 #: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:18
 msgid "Insert Post Connector show_children shortcode"
-msgstr "Inserir shortcode show_children do conector de artigos"
+msgstr "Inserir shortcode show_children do conector de conteúdos"
 
 #: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:19
 msgid "Use the form below to generate a show_children shortcode."
@@ -355,7 +355,7 @@ msgstr "Pesquisar"
 #: core/classes/meta-boxes/class-meta-box-manage.php:87
 #, php-format
 msgid "Add new %s"
-msgstr "Adicionar novo %s"
+msgstr "Adicionar novo(a) %s"
 
 #: core/classes/meta-boxes/class-meta-box-manage.php:113
 #, php-format
@@ -368,7 +368,7 @@ msgstr "Editar este item"
 
 #: core/classes/meta-boxes/class-meta-box-manage.php:149
 msgid "Delete this item"
-msgstr "Apagar este item"
+msgstr "Eliminar este item"
 
 #: core/classes/meta-boxes/class-meta-box-manage.php:163
 #, php-format
@@ -377,19 +377,19 @@ msgstr "Nenhum %s encontrado."
 
 #: core/classes/widgets/class-widget-show-children.php:21
 msgid "Post Connector - Show Children"
-msgstr "Conector de artigos - mostrar dependentes"
+msgstr "Post Connector - mostrar dependentes"
 
 #: core/classes/widgets/class-widget-show-children.php:22
 msgid "Display linked children by a parent or current post"
-msgstr "Mostrar dependentes ligados por um artigo superior ou actual"
+msgstr "Mostrar dependentes ligados por um conteúdo superior ou actual"
 
 #: core/classes/widgets/class-widget-show-children.php:105
 msgid "Post Link"
-msgstr "Ligação para o artigo"
+msgstr "Ligação para o conteúdo"
 
 #: core/classes/widgets/class-widget-show-children.php:112
 msgid "Select Post Link"
-msgstr "Seleccionar ligação do artigo"
+msgstr "Seleccionar ligação do conteúdo"
 
 #~ msgid "Sub Posts"
 #~ msgstr "Sub Posts"
