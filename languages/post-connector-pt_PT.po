@@ -3,8 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Post Connector 1.0.8\n"
-"POT-Creation-Date: 2015-06-01 14:19-0000\n"
-"PO-Revision-Date: 2016-01-29 15:26+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/barrykooij/post-connector/issues\n"
+"POT-Creation-Date: 2016-01-29 15:39+0000\n"
+"PO-Revision-Date: 2016-01-29 16:59+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -13,7 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -43,17 +45,14 @@ msgid "More information"
 msgstr "Mais informações"
 
 #: core/classes/class-admin-menu.php:151
-#, php-format
 msgid "<a href='%s'>Configuration Guide</a>"
 msgstr "<a href='%s'>Configuration Guide</a>"
 
 #: core/classes/class-admin-menu.php:153
-#, php-format
 msgid "<a href='%s'>Change log</a>"
 msgstr "<a href='%s'>Change log</a>"
 
 #: core/classes/class-admin-menu.php:155
-#, php-format
 msgid "<a href='%s'>API</a>"
 msgstr "<a href='%s'>API</a>"
 
@@ -66,11 +65,14 @@ msgid "Barry has been a WordPress deleveloper for years and is the author of var
 msgstr "Barry é um programador de WordPress há anos e é o autor de diversos plugins do WordPress."
 
 #: core/classes/class-admin-menu.php:163
-msgid "In his free time, Barry likes giving back by contributing various opensource projects. He also likes to visit and speak at WordPress meetups and WordCamps and is the organiser of the Dutch WordPress meetup in Tilburg."
-msgstr "No seu tempo livre, o Barry gosta de contribuir para diversos projectos opensource. Ele também gosta de visitar e conversar nos meetups de WordPress e WordCamps, é organizador do meetup de WordPress em Tiburg."
+msgid ""
+"In his free time, Barry likes giving back by contributing various opensource projects. He also likes to visit "
+"and speak at WordPress meetups and WordCamps and is the organiser of the Dutch WordPress meetup in Tilburg."
+msgstr ""
+"No seu tempo livre, o Barry gosta de contribuir para diversos projectos opensource. Ele também gosta de "
+"visitar e conversar nos meetups de WordPress e WordCamps, é organizador do meetup de WordPress em Tiburg."
 
 #: core/classes/class-admin-menu.php:165
-#, php-format
 msgid "You can follow Barry on Twitter <a href='%s'>here</a>."
 msgstr "Pode seguir o Barry no Twitter <a href='%s'>aqui</a>."
 
@@ -79,8 +81,13 @@ msgid "Connections"
 msgstr "Conexões"
 
 #: core/classes/class-admin-menu.php:188
-msgid "Post Connector connections are the connections you've created between post types. Post Connector will add a meta box to the post edit screens of these post types so you can link post to each other in minutes."
-msgstr "As ligações do Post Connector são ligações que foram criadas entre tipos de conteúdo. O Post Connector adiciona a caixa de metadados às páginas de edição dos conteúdos de modo a que possa conectar conteúdos entre si em minutos."
+msgid ""
+"Post Connector connections are the connections you've created between post types. Post Connector will add a "
+"meta box to the post edit screens of these post types so you can link post to each other in minutes."
+msgstr ""
+"As ligações do Post Connector são ligações que foram criadas entre tipos de conteúdo. O Post Connector "
+"adiciona a caixa de metadados às páginas de edição dos conteúdos de modo a que possa conectar conteúdos entre "
+"si em minutos."
 
 #: core/classes/class-admin-menu.php:190
 msgid "Active Connections"
@@ -92,8 +99,12 @@ msgid "Create a new connection"
 msgstr "Criar nova conexão"
 
 #: core/classes/class-admin-menu.php:199
-msgid "Before you can link posts to each other you need to create a connection between their post types first. Click the 'Create a new connection' button to get started."
-msgstr "Antes que possa conectar conteúdos entre si, primeiro tem que criar uma conexão entre os seus tipos de conteúdo. Clique aqui no botão 'Criar nova conexão' para começar."
+msgid ""
+"Before you can link posts to each other you need to create a connection between their post types first. Click "
+"the 'Create a new connection' button to get started."
+msgstr ""
+"Antes que possa conectar conteúdos entre si, primeiro tem que criar uma conexão entre os seus tipos de "
+"conteúdo. Clique aqui no botão 'Criar nova conexão' para começar."
 
 #: core/classes/class-admin-menu.php:231
 msgid "Posts"
@@ -109,7 +120,9 @@ msgstr "Editar conexão"
 
 #: core/classes/class-admin-menu.php:267
 msgid "To create or edit a post connection, fill in the below form and press the 'save connection' button."
-msgstr "Para criar ou editar uma nova conexão de conteúdos, preencha o formulário abaixo e prima o botão 'Guardar conexão'."
+msgstr ""
+"Para criar ou editar uma nova conexão de conteúdos, preencha o formulário abaixo e prima o botão 'Guardar "
+"conexão'."
 
 #: core/classes/class-admin-menu.php:269
 msgid "Main settings"
@@ -119,10 +132,9 @@ msgstr "Definições principais"
 msgid "Connection Title"
 msgstr "Título da conexão"
 
-#: core/classes/class-admin-menu.php:279
-#: core/classes/class-create-link-list-table.php:75
-#: core/classes/class-manage-links-list-table.php:20
-#: core/classes/widgets/class-widget-show-children.php:100
+#: core/classes/class-admin-menu.php:279 core/classes/class-create-link-list-table.php:75
+#: core/classes/class-manage-links-list-table.php:20 core/classes/widgets/class-widget-show-children.php:102
+#: premium/classes/widgets/class-widget-show-parents.php:126
 msgid "Title"
 msgstr "Título"
 
@@ -134,8 +146,7 @@ msgstr "O título da conexão, pode ser mostrado automaticamente acima dos conte
 msgid "Connection Slug"
 msgstr "Slug da conexão"
 
-#: core/classes/class-admin-menu.php:289
-#: core/classes/class-manage-links-list-table.php:21
+#: core/classes/class-admin-menu.php:289 core/classes/class-manage-links-list-table.php:21
 msgid "Slug"
 msgstr "Slug"
 
@@ -191,8 +202,7 @@ msgstr "Guardar conexão"
 msgid "All"
 msgstr "Todos"
 
-#: core/classes/class-create-link-list-table.php:177
-#: core/classes/class-create-link-list-table.php:212
+#: core/classes/class-create-link-list-table.php:177 core/classes/class-create-link-list-table.php:212
 msgid "Link"
 msgstr "Ligar"
 
@@ -204,8 +214,8 @@ msgstr "Tem a certeza que quer eliminar este conteúdo?"
 msgid "Are you sure you want to delete this link?"
 msgstr "Tem a certeza que quer eliminar esta ligação?"
 
-#: core/classes/class-javascript-strings.php:13
-#: core/classes/widgets/class-widget-show-children.php:139
+#: core/classes/class-javascript-strings.php:13 core/classes/widgets/class-widget-show-children.php:141
+#: premium/classes/widgets/class-widget-show-parents.php:165
 msgid "Current page"
 msgstr "Página actual"
 
@@ -217,22 +227,22 @@ msgstr "Conteúdo superior"
 msgid "Child post"
 msgstr "Conteúdo dependente"
 
-#: core/classes/class-manage-links-list-table.php:93
-#: core/classes/meta-boxes/class-meta-box-manage.php:147
+#: core/classes/class-manage-links-list-table.php:93 core/classes/meta-boxes/class-meta-box-manage.php:146
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:126
 msgid "Edit"
 msgstr "Editar"
 
-#: core/classes/class-manage-links-list-table.php:98
-#: core/classes/meta-boxes/class-meta-box-manage.php:150
+#: core/classes/class-manage-links-list-table.php:98 core/classes/meta-boxes/class-meta-box-manage.php:149
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:129
 msgid "Delete"
 msgstr "Eliminar"
 
 #: core/classes/class-post-link-manager.php:165
-#, php-format
 msgid "Slug '%s' does not exists"
 msgstr "A slug '%s' não existe"
 
 #: core/classes/co-filters/class-co-filter-plugin-links.php:12
+#: premium/classes/filters/class-filter-plugin-links.php:13
 msgid "Manage"
 msgstr "Gerir"
 
@@ -244,7 +254,7 @@ msgstr "TORNAR PRO"
 msgid "Upgrade to Pro"
 msgstr "Actualize para Pro"
 
-#: core/classes/co-hooks/class-co-hook-sidebar.php:10
+#. Plugin Name of the plugin/theme
 msgid "Post Connector Premium"
 msgstr "Post Connector Premium"
 
@@ -253,93 +263,110 @@ msgid "This plugin has an even better premium version, I am sure you will love i
 msgstr "Este plugin tem uma versão premium ainda melhor, tenho a certeza que vai gostar."
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:13
-msgid "Pro features include related content suggestions, sortable post connections, backwards linking, a developer friendly API and priority support."
-msgstr "Os recursos Pro incluem sugestões de conteúdo relacionado, ordenação de ligações entre conteúdos, ligações em sentido inverso, uma API amigável para programadores e suporte prioritário."
+msgid ""
+"Pro features include related content suggestions, sortable post connections, backwards linking, a developer "
+"friendly API and priority support."
+msgstr ""
+"Os recursos Pro incluem sugestões de conteúdo relacionado, ordenação de ligações entre conteúdos, ligações em "
+"sentido inverso, uma API amigável para programadores e suporte prioritário."
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:14
-#, php-format
 msgid "%sMore information about Post Connector Premium »%s"
 msgstr "%sMais informações sobre o Post Connector Premium »%s"
 
-#: core/classes/co-hooks/class-co-hook-sidebar.php:18
+#: core/classes/co-hooks/class-co-hook-sidebar.php:18 premium/classes/hooks/class-hook-sidebar.php:9
 msgid "Looking for support?"
 msgstr "Precisa de suporte?"
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:20
-#, php-format
 msgid "For support please visit the <a href='%s'>WordPress.org forums</a>."
 msgstr "Para suporte por favor visite os <a href='%s'>fóruns WordPress.org</a>."
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:22
-#, php-format
 msgid "Did you know that Post Connector Premium clients get priority email support? %sClick here to upgrade.%s"
-msgstr "Sabia que os clientes do Post Connector Premium obtêm suporte prioritário por email? %s Clique aqui para actualizar.%s"
+msgstr ""
+"Sabia que os clientes do Post Connector Premium obtêm suporte prioritário por email? %s Clique aqui para "
+"actualizar.%s"
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:26
 msgid "Show a token of your appreciation"
 msgstr "Mostre a sua apreciação"
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:28
-#, php-format
 msgid "<a href='%s' target='_blank'>Leave a ★★★★★ plugin review on WordPress.org</a>."
 msgstr "<a href='%s' target='_blank'>Deixe uma avaliação com ★★★★★ em WordPress.org</a>."
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:29
-#, php-format
 msgid "<a href='%s' target='_blank'>Tweet about Post Connector</a>."
 msgstr "<a href='%s' target='_blank'>Publique no Twitter sobre o Post Connector</a>."
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:30
-#, php-format
 msgid "Review the plugin on your blog and link to <a href='%s' target='_blank'>the plugin page</a>."
-msgstr "Avalie o plugin no seu blog e faça uma ligação para a <a href='%s' target='_blank'>página do plugin</a>."
+msgstr ""
+"Avalie o plugin no seu blog e faça uma ligação para a <a href='%s' target='_blank'>página do plugin</a>."
 
 #: core/classes/co-hooks/class-co-hook-sidebar.php:31
-#, php-format
 msgid "<a href='%s' target='_blank'>Vote 'works' on the WordPress.org plugin page</a>."
 msgstr "<a href='%s' target='_blank'>Vote 'funciona' na página do plugin no WordPress.org</a>."
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:18
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:19
 msgid "Insert Post Connector show_children shortcode"
 msgstr "Inserir shortcode show_children do conector de conteúdos"
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:19
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:20
 msgid "Use the form below to generate a show_children shortcode."
 msgstr "Utilize o formulário abaixo para gerar um shortcode show_children."
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:31
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:32
 msgid "Connection"
 msgstr "Conexão"
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:38
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:39
 msgid "Select Connection"
 msgstr "Seleccionar conexão"
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:48
-#: core/classes/widgets/class-widget-show-children.php:127
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:49
+#: core/classes/widgets/class-widget-show-children.php:129
 msgid "Parent"
 msgstr "Superior"
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:55
-#: core/classes/widgets/class-widget-show-children.php:154
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:56
+#: core/classes/widgets/class-widget-show-children.php:156
+#: premium/classes/widgets/class-widget-show-parents.php:180
 msgid "Make children clickable"
 msgstr "Tornar os dependentes clicáveis"
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:63
-#: core/classes/widgets/class-widget-show-children.php:162
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:58
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:66
+#: core/classes/widgets/class-widget-show-children.php:158
+#: core/classes/widgets/class-widget-show-children.php:166
+#: core/classes/widgets/class-widget-show-children.php:174
+msgid "Yes"
+msgstr "Sim"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:59
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:67
+#: core/classes/widgets/class-widget-show-children.php:159
+#: core/classes/widgets/class-widget-show-children.php:167
+#: core/classes/widgets/class-widget-show-children.php:175
+msgid "No"
+msgstr "Não"
+
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:64
+#: core/classes/widgets/class-widget-show-children.php:164
+#: premium/classes/widgets/class-widget-show-parents.php:188
 msgid "Display excerpt"
 msgstr "Mostrar excerto"
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:77
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:78
 msgid "Insert Shortcode"
 msgstr "Inserir shortcode"
 
-#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:78
+#: core/classes/hooks/class-hook-footer-tickbox-shortcode.php:79
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: core/classes/hooks/class-hook-link-post-screen.php:33
-#: core/classes/hooks/class-hook-link-post-screen.php:40
+#: core/classes/hooks/class-hook-link-post-screen.php:33 core/classes/hooks/class-hook-link-post-screen.php:40
 #: core/classes/meta-boxes/class-meta-box-meta.php:51
 msgid "You're not allowed to do this."
 msgstr "Não tem permissões para fazer isto."
@@ -352,131 +379,289 @@ msgstr "Cancelar ligação"
 msgid "Search"
 msgstr "Pesquisar"
 
-#: core/classes/meta-boxes/class-meta-box-manage.php:87
-#, php-format
+#: core/classes/meta-boxes/class-meta-box-manage.php:86
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:85
 msgid "Add new %s"
 msgstr "Adicionar novo(a) %s"
 
-#: core/classes/meta-boxes/class-meta-box-manage.php:113
-#, php-format
+#: core/classes/meta-boxes/class-meta-box-manage.php:112
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:103
 msgid "Add existing %s"
 msgstr "Adicionar %s existente"
 
-#: core/classes/meta-boxes/class-meta-box-manage.php:146
+#: core/classes/meta-boxes/class-meta-box-manage.php:145
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:125
 msgid "Edit this item"
 msgstr "Editar este item"
 
-#: core/classes/meta-boxes/class-meta-box-manage.php:149
+#: core/classes/meta-boxes/class-meta-box-manage.php:148
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:128
 msgid "Delete this item"
 msgstr "Eliminar este item"
 
-#: core/classes/meta-boxes/class-meta-box-manage.php:163
-#, php-format
+#: core/classes/meta-boxes/class-meta-box-manage.php:162
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:141
 msgid "No %s found."
 msgstr "Nenhum %s encontrado."
 
-#: core/classes/widgets/class-widget-show-children.php:21
+#: core/classes/widgets/class-widget-show-children.php:22
 msgid "Post Connector - Show Children"
 msgstr "Post Connector - mostrar dependentes"
 
-#: core/classes/widgets/class-widget-show-children.php:22
+#: core/classes/widgets/class-widget-show-children.php:23
 msgid "Display linked children by a parent or current post"
 msgstr "Mostrar dependentes ligados por um conteúdo superior ou actual"
 
-#: core/classes/widgets/class-widget-show-children.php:105
+#: core/classes/widgets/class-widget-show-children.php:107
+#: premium/classes/widgets/class-widget-show-parents.php:131
 msgid "Post Link"
 msgstr "Ligação para o conteúdo"
 
-#: core/classes/widgets/class-widget-show-children.php:112
+#: core/classes/widgets/class-widget-show-children.php:114
+#: premium/classes/widgets/class-widget-show-parents.php:138
 msgid "Select Post Link"
 msgstr "Seleccionar ligação do conteúdo"
 
-#~ msgid "Sub Posts"
-#~ msgstr "Sub Posts"
+#: core/classes/widgets/class-widget-show-children.php:172
+#: premium/classes/widgets/class-widget-show-parents.php:196
+msgid "Display thumbnail"
+msgstr "Mostrar miniatura"
 
-#~ msgid "Show Childs"
-#~ msgstr "Mostrar Hijos"
+#: premium/classes/filters/class-filter-plugin-links.php:12
+#: premium/classes/hooks/class-hook-license-page-multisite.php:12
+#: premium/classes/hooks/class-hook-license-page.php:12
+msgid "License"
+msgstr "Licencia"
 
-#~ msgid "License"
-#~ msgstr "Licencia"
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:14
+msgid "Display excerpt?"
+msgstr "Mostrar excerto?"
 
-#~ msgid "Meta information"
-#~ msgstr "Meta información"
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:16
+msgid "Display the excerpt of linked children."
+msgstr "Mostra excerto de dependentes ligados."
 
-#~ msgid "Version"
-#~ msgstr "Versión"
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:22
+msgid "Display image?"
+msgstr "Mostrar imagem?"
 
-#~ msgid "Active post type links"
-#~ msgstr "Vinculación entre tipos de posts activos"
+#: premium/classes/hooks/class-hook-connection-edit-display-linked-children-fields.php:24
+msgid "Display the featured image of linked children."
+msgstr "Mostra imagem de destaque de dependentes ligados."
 
-#~ msgid "These are your active post type links."
-#~ msgstr "Estas son tus vinculaciones entre los tipos de posts activos."
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:14
+msgid "Automatically display linked parents"
+msgstr "Mostrar automaticamente superiores ligados"
 
-#~ msgid "Create new post type link"
-#~ msgstr "Crear una nueva vinculación entre dos tipos de posts"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:20
+msgid "Display linked parents?"
+msgstr "Mostrar superiores ligados?"
 
-#~ msgid "Edit post type link"
-#~ msgstr "Editar vínculo entre tipos de posts"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:22
+msgid "Display the linked parent posts under each child post."
+msgstr "Mostra os conteúdos superiores ligados por baixo de cada conteúdo dependente."
 
-#~ msgid "Child"
-#~ msgstr "Hijo"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:30
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:36
+msgid "Sortable"
+msgstr "Ordenable"
 
-#~ msgid "Sortable"
-#~ msgstr "Ordenable"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:39
+msgid "Allow users to sort children in the meta box at the edit post screen."
+msgstr "Permite aos utilizadores ordenar os dependentes na caixa de metadados ne ecrã de edição do conteúdo."
 
-#~ msgid "Yes"
-#~ msgstr "Sí"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:47
+#: premium/classes/meta-boxes/class-meta-box-manage-parent.php:34
+msgid "Backwards linking"
+msgstr "Ligação inversa"
 
-#~ msgid "No"
-#~ msgstr "No"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:53
+msgid "Enable backwards linking"
+msgstr "Permite ligação inversa."
 
-#~ msgid "Save"
-#~ msgstr "Guardar"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:55
+msgid "Enable Backwards linking."
+msgstr "Permite ligação inversa."
 
-#~ msgid "License settings"
-#~ msgstr "Ajustes de licencia"
+#: premium/classes/hooks/class-hook-connection-edit-premium-fields.php:58
+msgid "Backwards linking allows users to link parents to children from within the child post."
+msgstr ""
+"Ligação inversa permite aos utilizadores ligar superiores aos dependentes, a partir da página do conteúdo "
+"dependente."
 
-#~ msgid "License Key"
-#~ msgstr "Clave de licencia"
+#: premium/classes/hooks/class-hook-license-page-multisite.php:25
+#: premium/classes/hooks/class-hook-license-page.php:25
+msgid "License settings"
+msgstr "Ajustes de licencia"
 
-#~ msgid "Enter your license key"
-#~ msgstr "Introduzca su clave de licencia"
+#: premium/classes/hooks/class-hook-sidebar.php:11
+msgid "For support questions please drop us an email at <a href='%s'>%s</a>."
+msgstr "Para questões de suporte, por favor envie um email para <a href='%s'>%s</a>."
 
-#~ msgid "License Status"
-#~ msgstr "Estado de la licencia"
+#: premium/classes/license-manager/class-license-manager.php:137
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add "
+"%s to %s."
+msgstr ""
 
-#~ msgid "ACTIVE"
-#~ msgstr "ACTIVO"
+#: premium/classes/license-manager/class-license-manager.php:178
+msgid "Your %s license has been activated. "
+msgstr "A sua licença %s foi activada. "
 
-#~ msgid "Deactivate License"
-#~ msgstr "Desactivar licencia"
+#: premium/classes/license-manager/class-license-manager.php:182
+msgid "You have an unlimited license. "
+msgstr "Tem uma licença ilimitada. "
 
-#~ msgid "INACTIVE"
-#~ msgstr "INACTIVO"
+#: premium/classes/license-manager/class-license-manager.php:184
+msgid "You have used %d/%d activations. "
+msgstr "Já utilizou %d/&d activações. "
 
-#~ msgid "Activate License"
-#~ msgstr "Activar licencia"
+#: premium/classes/license-manager/class-license-manager.php:189
+msgid "<a href=\"%s\">Did you know you can upgrade your license?</a>"
+msgstr "<a href=\"%s\">Sabe que pode actualizar a sua licença?</a>"
 
-#~ msgid "Insert Sub Posts GetChilds Shortcode"
-#~ msgstr "Inserta el Shortcode de obtención de hijos de Sub Posts"
+#: premium/classes/license-manager/class-license-manager.php:193
+msgid "<a href=\"%s\">Your license is expiring in %d days, would you like to extend it?</a>"
+msgstr "<a href=\"%s\">A sua licença expira daqui a %d dias, gostaria de a prolongar?</a>"
 
-#~ msgid "Use the form below to generate a GetChilds shortcode."
-#~ msgstr "Usa el formulario inferior para generar un Shortcode de obtención de hijos."
+#: premium/classes/license-manager/class-license-manager.php:202
+msgid ""
+"You've reached your activation limit. You must <a href=\"%s\">upgrade your license</a> to use it on this site."
+msgstr ""
 
-#~ msgid "Make childs clickable"
-#~ msgstr "Hacer hijos clickeables"
+#: premium/classes/license-manager/class-license-manager.php:205
+msgid "Your license has expired. You must <a href=\"%s\">extend your license</a> in order to use it again."
+msgstr ""
 
-#~ msgid "Sub Posts Meta"
-#~ msgstr "Meta Sub Posts"
+#: premium/classes/license-manager/class-license-manager.php:208
+msgid "Failed to activate your license, your license key seems to be invalid."
+msgstr ""
 
-#~ msgid "This MetaBox is required by Sub Posts."
-#~ msgstr "Este MetaBox es necesario para Sub Posts."
+#: premium/classes/license-manager/class-license-manager.php:232
+msgid "Your %s license has been deactivated."
+msgstr ""
 
-#~ msgid "Sub Posts - Show Childs"
-#~ msgstr "Sub Posts - Mostrar Hijos"
+#: premium/classes/license-manager/class-license-manager.php:234
+msgid "Failed to deactivate your %s license."
+msgstr ""
 
-#~ msgid "Display linked childs by a parent or current post"
-#~ msgstr "Mostrar los hijos vinculados por un padre o un post actual"
+#: premium/classes/license-manager/class-license-manager.php:269
+msgid "Request error: \"%s\" (%scommon license notices%s)"
+msgstr ""
 
-#~ msgid "Current queried object"
-#~ msgstr "Objeto consultado actual"
+#: premium/classes/license-manager/class-license-manager.php:425
+msgid "%s: License Settings"
+msgstr ""
+
+#: premium/classes/license-manager/class-plugin-license-manager.php:73
+msgid ""
+"%s is network activated, you can manage your license in the <a href=\"%s\">network admin license page</a>."
+msgstr ""
+
+#: premium/classes/license-manager/class-plugin-license-manager.php:75
+msgid "%s is network activated, please contact your site administrator to manage the license."
+msgstr ""
+
+#: premium/classes/license-manager/class-theme-license-manager.php:34
+#: premium/classes/license-manager/samples/sample-plugin.php:53
+msgid "%s License"
+msgstr ""
+
+#: premium/classes/license-manager/class-theme-license-manager.php:34
+msgid "Theme License"
+msgstr "Licença do tema"
+
+#: premium/classes/license-manager/class-theme-update-manager.php:96
+#, fuzzy
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+"Ao actualizar este tema vai perder todas as personalizações que fez. Clique 'Cancelar' para interromper, 'OK' "
+"para actualizar."
+
+#: premium/classes/license-manager/class-theme-update-manager.php:101
+msgid ""
+"<strong>%s version %s</strong> is available. <a href=\"%s\" class=\"thickbox\" title=\"%s\">Check out what's "
+"new</a> or <a href=\"%s\" %s>update now</a>."
+msgstr ""
+
+#: premium/classes/license-manager/class-update-manager.php:83
+msgid "%s failed to check for updates because of the following error: <em>%s</em>"
+msgstr ""
+
+#: premium/classes/license-manager/class-update-manager.php:153
+msgid ""
+"This site has not been activated properly on post-connector.com and thus cannot check for future updates. "
+"Please activate your site with a valid license key."
+msgstr ""
+
+#: premium/classes/license-manager/views/form.php:23
+msgid "License status"
+msgstr "Estado da licença"
+
+#: premium/classes/license-manager/views/form.php:33
+msgid "Toggle license status"
+msgstr "Alternar estado da licença"
+
+#: premium/classes/license-manager/views/form.php:37
+msgid "Deactivate License"
+msgstr "Desactivar licencia"
+
+#: premium/classes/license-manager/views/form.php:38
+msgid "(deactivate your license so you can activate it on another WordPress site)"
+msgstr "(desactive a sua licença para que possa activá-la noutro site WordPress)"
+
+#: premium/classes/license-manager/views/form.php:42
+msgid "Activate License"
+msgstr "Activar licencia"
+
+#: premium/classes/license-manager/views/form.php:44
+msgid "Please enter a license key in the field below first."
+msgstr ""
+
+#: premium/classes/license-manager/views/form.php:52
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: premium/classes/license-manager/views/form.php:54
+msgid "Paste your %s license key here.."
+msgstr "Cole a sua chave da licença %s aqui..."
+
+#: premium/classes/license-manager/views/form.php:56
+msgid "You defined your license key using the %s PHP constant."
+msgstr ""
+
+#: premium/classes/license-manager/views/form.php:73
+msgid "Your %s license will expire on %s."
+msgstr ""
+
+#: premium/classes/license-manager/views/form.php:76
+msgid "%sRenew your license now%s."
+msgstr ""
+
+#: premium/classes/widgets/class-widget-show-parents.php:25
+msgid "Post Connector - Show Parents"
+msgstr "Post Connector - mostrar superiores"
+
+#: premium/classes/widgets/class-widget-show-parents.php:26
+msgid "Display linked parents by a child or current post"
+msgstr ""
+
+#: premium/classes/widgets/class-widget-show-parents.php:153
+msgid "Child"
+msgstr "Hijo"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.post-connector.com/"
+msgstr "https://www.post-connector.com/"
+
+#. Description of the plugin/theme
+msgid "With Post Connector you can easily link posts to each other."
+msgstr "Com o Post Connector pode facilmente ligar conteúdos entre si."
+
+#. Author of the plugin/theme
+msgid "Never5"
+msgstr "Never5"
+
+#. Author URI of the plugin/theme
+msgid "http://www.never5.com/"
+msgstr "http://www.never5.com/"
