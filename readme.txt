@@ -3,7 +3,7 @@ Contributors: never5, barrykooij
 Donate link: https://www.post-connector.com/
 Tags: post connector, related, related posts, post connection, connection, connections, shortcode, widget
 Requires at least: 3.6
-Tested up to: 4.4.1
+Tested up to: 4.6
 Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
