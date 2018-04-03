@@ -78,6 +78,9 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 
 == Changelog ==
 
+= 1.0.9 - April 3, 2018 =
+* Tweak: Registering widgets differently, no longer using create_function. Fixes PHP 7.2+ notice.
+
 = 1.0.8 - January 21, 2016 =
 * Fixed a bug that caused translation not to load properly.
 * Updated translation files.
