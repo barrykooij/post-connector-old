@@ -2,8 +2,8 @@
 Contributors: never5, barrykooij
 Donate link: https://www.post-connector.com/
 Tags: post connector, related, related posts, post connection, connection, connections, shortcode, widget
-Requires at least: 3.6
-Tested up to: 5.0
+Requires at least: 5.0
+Tested up to: 6.3
 Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
